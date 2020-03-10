@@ -163,6 +163,7 @@ p {
   color: #fff;
   text-align: center;
   background-color: #2e58b0;
+  background-image: url('../img/.png');
   background-repeat: repeat;
 }
 .bs-docs-masthead .container {
