@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #db1b3b;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 h3 {
   font-size: 2.5rem;
@@ -27,8 +27,8 @@ hr {
   border-color: #f1f1f1;
   border-width: 1px;
 }
-p {
-  font-size: 1.5rem;
+p, li {
+  font-size: 2rem;
 }
 
 /* General classes */
@@ -37,6 +37,18 @@ p {
   color: #002f43;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+/* Alert */
+
+.alert-info {
+  background: #f1f1f1;
+  color: #212121;
+  padding: 3rem;
+}
+p, ul {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 /* Icons */
@@ -95,8 +107,8 @@ p {
 /* Masthead */
 
 .jumbo {
-  padding-top: 40px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 .bs-docs-masthead,
 .bs-docs-header {
@@ -110,7 +122,7 @@ p {
   background-repeat: repeat;
 }
 .bs-docs-masthead .container {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   padding-top: 0px;
 }
 .bs-docs-masthead a, .bs-docs-masthead a:visited {
@@ -118,16 +130,16 @@ p {
   text-decoration: none;
 }
 .bs-docs-masthead .bs-docs-booticon {
-  margin: 0 auto 30px;
+  margin: 0 auto 20px;
 }
 .bs-docs-masthead h1 {
   font-weight: 900;
   line-height: 1;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .bs-docs-masthead .lead {
-  margin: 0 auto 30px;
+  margin: 0;
   font-size: 1.5rem;
   color: #fff;
 }
@@ -189,15 +201,17 @@ a.btn-primary, .btn-primary, a.btn-primary:hover, .btn-primary:hover {
   color: #fff;
   background-color: #db1b3b;
   border: none;
+  border-radius: 5px;
   font-weight: 900;
   margin-bottom: 30px;
   margin-top: 30px;
   padding: 10px;
   text-decoration: none;
   display: block;
+  text-align: center;
 }
 a.btn-primary:hover, .btn-primary:hover {
-  background-color: #db1b3b;
+  background-color: #212121;
   text-decoration: none;
 }
 
