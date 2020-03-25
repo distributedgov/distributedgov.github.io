@@ -101,20 +101,20 @@ p, ul {
   font-weight: 900;
 }
 .brand {
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 
 /* Masthead */
 
 .jumbo {
-  padding-top: 30px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 .bs-docs-masthead,
 .bs-docs-header {
   margin-bottom: 30px;
   position: relative;
-  padding: 30px 0;
+  padding: 10px 0;
   color: #fff;
   text-align: center;
   background-color: #db1b3b;
@@ -122,7 +122,7 @@ p, ul {
   background-repeat: repeat;
 }
 .bs-docs-masthead .container {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   padding-top: 0px;
 }
 .bs-docs-masthead a, .bs-docs-masthead a:visited {
@@ -136,7 +136,7 @@ p, ul {
   font-weight: 900;
   line-height: 1;
   color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 .bs-docs-masthead .lead {
   margin: 0;
@@ -165,10 +165,10 @@ p, ul {
     padding: 0px 0;
   }
   .bs-docs-masthead h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
   .bs-docs-masthead .lead {
-    font-size: 24px;
+    font-size: 2.25rem;
   }
 }
 
@@ -227,16 +227,4 @@ a.btn-primary:hover, .btn-primary:hover {
   color: #ffffff;
   background-color: #3A6EDD;
   text-decoration: none;
-}
-
-/* Book */
-
-.book {
-  border-top: 1px solid #f1f1f1;
-  margin-top: 1rem;
-  padding-top: 1rem;
-}
-.book img {
-  border: 1px solid #000000;
-  margin-top: 1rem;
 }
