@@ -28,7 +28,7 @@ hr {
   border-width: 1px;
 }
 p, li {
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
 /* General classes */
@@ -47,8 +47,8 @@ p, li {
   padding: 3rem;
 }
 p, ul {
-  padding-top: 2rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1.25rem;
 }
 
 /* Icons */
@@ -204,7 +204,7 @@ a.btn-primary, .btn-primary, a.btn-primary:hover, .btn-primary:hover {
   border-radius: 5px;
   font-weight: 900;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 0px;
   padding: 10px;
   text-decoration: none;
   display: block;
