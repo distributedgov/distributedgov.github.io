@@ -3,31 +3,19 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1170467-11"></script>
+    <!-- Google Analytics -->
     <script>
-        window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      gtag('config', 'UA-1170467-11');
+    ga('create', 'UA-1170467-11', 'auto');
+    ga('require', 'outboundLinkTracker');
+    ga('send', 'pageview');
     </script>
-
-    <script>
-    /**
-    * Function that captures a click on an outbound link in Analytics.
-    * This function takes a valid URL string as an argument, and uses that URL string
-    * as the event label. Setting the transport method to 'beacon' lets the hit be sent
-    * using 'navigator.sendBeacon' in browser that support it.
-    */
-    var captureOutboundLink = function(url) {
-       ga('send', 'event', 'outbound', 'click', url, {
-         'transport': 'beacon',
-         'hitCallback': function(){document.location = url;}
-       });
-    }
-    </script> 
-
+    <!-- End Google Analytics -->
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -120,15 +108,15 @@
         <div class="row">
             <div class="col-md-6 icon">
                 <h2>Community</h2>
-                <a href="https://distributedgov.herokuapp.com/" onclick="captureOutboundLink('https://distributedgov.herokuapp.com/'); return true;"><i class="fa fa-comments" aria-hidden="true"></i></a>
+                <a href="https://distributedgov.herokuapp.com/"><i class="fa fa-comments" aria-hidden="true"></i></a>
                 <p>Do you have specific questions about working remotely? Connect with people just getting started and get support from teleworking experts.</p>
-                <p><a class="btn btn-primary" href="https://distributedgov.herokuapp.com/" role="button" onclick="captureOutboundLink('https://distributedgov.herokuapp.com/'); return true;">Community &raquo;</a></p>
+                <p><a class="btn btn-primary" href="https://distributedgov.herokuapp.com/" role="button">Community &raquo;</a></p>
             </div>
             <div class="col-md-6 icon">
                 <h2>Webinars</h2>
-                <a href="https://civicactions.com/distributed-government" onclick="captureOutboundLink('https://civicactions.com/distributed-government'); return true;"><i class="fas fa-laptop"></i></a>
+                <a href="https://civicactions.com/distributed-government"><i class="fas fa-laptop"></i></a>
                 <p>Are you suddenly working remotely? Explore upcoming FREE webinars helping people improve communications and operations while teleworking.</p>
-                <p><a class="btn btn-primary" href="https://civicactions.com/distributed-government" role="button" onclick="captureOutboundLink('https://civicactions.com/distributed-government'); return true;">Webinars &raquo;</a></p>
+                <p><a class="btn btn-primary" href="https://civicactions.com/distributed-government" role="button">Webinars &raquo;</a></p>
             </div>
         </div>
     </div>
@@ -137,7 +125,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <p><a href="https://twitter.com/distributedgov"><i class="fab fa-twitter"></i></a> <a href="https://distributedgov.herokuapp.com/"><i class="fab fa-slack"></i></a><a href="https://github.com/distributedgov"><i class="fab fa-github"></i></a></p>
-                    <p><a href="https://distributedgov.org">DistributedGov</a> - Powered by <a href="https://civicactions.com" onclick="captureOutboundLink('https://civicactions.com'); return true;">CivicActions</a></p>
+                    <p><a href="https://distributedgov.org">DistributedGov</a> - Powered by <a href="https://civicactions.com">CivicActions</a></p>
                     <p>Icon: Government by Vicons Design from the Noun Project</p>
                 </div>
             </div>
