@@ -10,6 +10,22 @@
 
       gtag('config', 'UA-1170467-11');
     </script>
+
+    <script>
+        /**
+        * Function that captures a click on an outbound link in Analytics.
+        * This function takes a valid URL string as an argument, and uses that URL string
+        * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+        * using 'navigator.sendBeacon' in browser that support it.
+        */
+        var captureOutboundLink = function(url) {
+           ga('send', 'event', 'outbound', 'click', url, {
+             'transport': 'beacon',
+             'hitCallback': function(){document.location = url;}
+           });
+        }
+        </script>
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -111,15 +127,15 @@
       <div class="row">
         <div class="col-md-6 icon">
           <h2>Community</h2>
-          <a href="https://distributedgov.herokuapp.com/"><i class="fa fa-comments" aria-hidden="true"></i></a>
+          <a href="https://distributedgov.herokuapp.com/" onclick="captureOutboundLink('https://distributedgov.herokuapp.com/'); return false;"><i class="fa fa-comments" aria-hidden="true"></i></a>
           <p>Do you have specific questions about working remotely? Connect with people just getting started and get support from teleworking experts.</p>
-          <p><a class="btn btn-primary" href="https://distributedgov.herokuapp.com/" role="button">Community &raquo;</a></p>
+          <p><a class="btn btn-primary" href="https://distributedgov.herokuapp.com/" role="button" onclick="captureOutboundLink('https://distributedgov.herokuapp.com/'); return false;">Community &raquo;</a></p>
         </div>
         <div class="col-md-6 icon">
           <h2>Webinars</h2>
-          <a href="https://civicactions.com/distributed-government"><i class="fas fa-laptop"></i></a>
+          <a href="https://civicactions.com/distributed-government" onclick="captureOutboundLink('https://civicactions.com/distributed-government'); return false;"><i class="fas fa-laptop"></i></a>
           <p>Are you suddenly working remotely? Explore upcoming FREE webinars helping people improve communications and operations while teleworking.</p>
-          <p><a class="btn btn-primary" href="https://civicactions.com/distributed-government" role="button">Webinars &raquo;</a></p>
+          <p><a class="btn btn-primary" href="https://civicactions.com/distributed-government" role="button" onclick="captureOutboundLink('https://civicactions.com/distributed-government'); return false;">Webinars &raquo;</a></p>
         </div>
       </div>
     </div>
