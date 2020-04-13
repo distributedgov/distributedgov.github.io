@@ -10,25 +10,32 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 900;
-  color: #db1b3b;
+  color: #002f43;
 }
 h2 {
-  font-size: 3.5rem;
+  font-size: 3.25rem;
+  padding-bottom: .75rem;
 }
 h3 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 }
 a, a:visited, a:hover {
 	color: #db1b3b;
 }
 hr {
-  margin-bottom: 30px;
-  margin-top: 30px;
-  border-color: #f1f1f1;
-  border-width: 1px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  border-color: #002f43;
+  border-width: 10px;
 }
-p, li {
-  font-size: 1.75rem;
+main p, main li {
+  font-size: 2rem;
+}
+main p, main ul {
+  padding-bottom: 1.5rem;
+}
+main a, main a:visited {
+  text-decoration: underline;
 }
 
 /* Icons */
@@ -38,6 +45,11 @@ p, li {
   font-size: 7rem;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+.icon p {
+  font-size: 1.75rem;
+  padding-bottom: 1.5rem;
+  padding-top: .5rem;
 }
 
 /* Video */
@@ -57,10 +69,16 @@ p, li {
   background: #000000;
   border-radius: 5px;
 }
+.video a, .video a:visited {
+  color: #ffffff;
+  text-decoration: underline;
+}
 
 /* Navbar */
 
 .navbar {
+  background: #db1b3b;
+  background-image: url('../img/bg-hero.png');
   border-radius: 0;
   margin-bottom: 0;
 }
@@ -76,13 +94,13 @@ p, li {
 	border-color: #db1b3b;
 }
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
-	color: #db1b3b;
+	color: #ffff;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-	background: #db1b3b;
+	background: #ffff;
 }
 .navbar-header a, .navbar-header a:visited, .navbar-header a:hover {
-  color: #db1b3b;
+  color: #ffffff;
 }
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
@@ -91,16 +109,14 @@ p, li {
 .brand {
   padding-bottom: 0px;
 }
+.navbar a, .navbar a:visited, .navbar a:hover {
+  color: #fff;
+}
 
 /* Jumbotron */
 
 .jumbotron {
-  background: #002f43;
-  padding-top: 40px;
-  padding-bottom: 60px;
-}
-.jumbotron h1, .jumbotron p {
-  color: #ffffff;
+  background: #f1f1f1;
 }
 
 /* Footer */
@@ -132,11 +148,11 @@ p, li {
 }
 a.btn-primary, .btn-primary, a.btn-primary:hover, .btn-primary:hover {
   color: #fff;
-  background-color: #db1b3b;
+  background-color: #002f43;
   border: none;
   border-radius: 5px;
   font-weight: 900;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   margin-top: 0px;
   padding: 10px;
   text-decoration: none;
