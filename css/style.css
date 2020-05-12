@@ -66,6 +66,12 @@ main a, main a:visited {
   max-width: 150px;
 }
 
+/* Training details */
+
+.details .fas, .details .far {
+  color: #999999;
+}
+
 /* Nav pills */
 
 .nav-pills li {
