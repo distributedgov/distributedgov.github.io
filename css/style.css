@@ -72,6 +72,11 @@ main a, main a:visited {
   color: #999999;
 }
 
+ul.fa-ul li {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
 /* Nav pills */
 
 .nav-pills li {
@@ -79,7 +84,7 @@ main a, main a:visited {
   color: #ffffff;
   display: block;
   border-radius: 5px;
-  margin-bottom: .5rem;
+  margin-bottom: .75rem;
   margin-right: .5rem;
   padding: 1rem;
 }
