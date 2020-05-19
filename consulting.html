@@ -1,0 +1,31 @@
+---
+layout: default
+title: Consulting
+description: Consultation services to help public service teams build highly effective remote and telework environments.
+---
+<div class="container">
+    <div class="row">
+        {% for consulting in site.consulting %}
+        <div class="col-md-4">
+            <div class="card-group">
+                <div class="card">
+                    <div class="card-body icon">
+                        <a href="{{ consulting.url }}"><i class="fas fa-lightbulb"></i></a>
+                        <h2>
+                            <a href="{{ consulting.url }}" class="stretched-link">
+                                {{ consulting.title }}
+                            </a>
+                        </h2>
+                        <p>
+                            {{ consulting.description }}
+                        </p>
+                        <a class="btn btn-primary" href="{{ training.url }}" role="button">Consulting</a>
+                    </div>
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,20 @@
+docs_list_title: nav
+docs:
+
+- title: Services
+  url: /services/
+
+- title: People
+  url: /people/
+
+- title: Guide
+  url: /guide/
+
+- title: Help
+  url: /help/
+
+- title: News
+  url: /news/
+
+- title: <i class="fas fa-search"></i>
+  url: /search/

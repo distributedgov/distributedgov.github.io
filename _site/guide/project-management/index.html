@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://getbootstrap.com/examples/starter-template/ -->
+<html lang="en">
+
+<head>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="How to effectively manage tasks and projects in remote/telework teams.">
+    <meta name="author" content="DistributedGov">
+    <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="http://localhost:4000/img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4000/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://localhost:4000/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:4000/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="http://localhost:4000/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="http://localhost:4000/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Social media post -->
+    <meta property="og:image" content="http://localhost:4000/img/avatar.png">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="630">
+    <meta property="og:title" content="Project management">
+    <meta property="og:description" content="How to effectively manage tasks and projects in remote/telework teams.">
+    <meta property="og:url" content="http://localhost:4000">
+    <title>Project management - DistributedGov</title>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link href="http://localhost:4000/css/style.css" rel="stylesheet">
+    </script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+    <script>
+    addBackToTop({
+        diameter: 56,
+        backgroundColor: '#002f43',
+        textColor: '#fff'
+    })
+    </script>
+<nav class="navbar navbar-dark navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="http://localhost:4000/">DistributedGov</a> <sup>powered by <a href="https://civicactions.com">CivicActions</a></sup>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-md-auto">
+                
+                <li class="nav-item "><a href="/services/" class="nav-link">Services</a></li>
+                
+                <li class="nav-item "><a href="/people/" class="nav-link">People</a></li>
+                
+                <li class="nav-item "><a href="/guide/" class="nav-link">Guide</a></li>
+                
+                <li class="nav-item "><a href="/help/" class="nav-link">Help</a></li>
+                
+                <li class="nav-item "><a href="/news/" class="nav-link">News</a></li>
+                
+                <li class="nav-item "><a href="/search/" class="nav-link"><i class="fas fa-search"></i></a></li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+<main>
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="http://localhost:4000/guide">Distributed Government Guide</a></li>
+        <!--<li class="breadcrumb-item active" aria-current="page">Project management</li>-->
+    </ol>
+</nav>
+<div class="container-fluid guide section">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="list-group">
+                
+                <a href="/guide/welcome" class="list-group-item list-group-item-action ">Welcome</a>
+                
+                <a href="/guide/why-distributed/" class="list-group-item list-group-item-action ">Why distributed</a>
+                
+                <a href="/guide/getting-started/" class="list-group-item list-group-item-action ">Getting started</a>
+                
+                <a href="/guide/security/" class="list-group-item list-group-item-action ">Security</a>
+                
+                <a href="/guide/communications/" class="list-group-item list-group-item-action ">Communications</a>
+                
+                <a href="/guide/managing/" class="list-group-item list-group-item-action ">Managing</a>
+                
+                <a href="/guide/meetings/" class="list-group-item list-group-item-action ">Meetings</a>
+                
+                <a href="/guide/project-management/" class="list-group-item list-group-item-action ">Project management</a>
+                
+                <a href="/guide/technology/" class="list-group-item list-group-item-action ">Technology</a>
+                
+                <a href="/guide/policies/" class="list-group-item list-group-item-action ">Policies</a>
+                
+            </div>
+        </div>
+        <div class="col-md-9">
+            <h1 class="">Project management</h1>
+            <p class="lead">How to effectively manage tasks and projects in remote/telework teams.</p>
+            <h2 id="checklist">Checklist</h2>
+
+<h3 id="prioritize-collaboration">Prioritize collaboration</h3>
+
+<ul>
+  <li>Invite feedback early and often by sharing drafts, works-in-progress, and <a href="https://www.agilealliance.org/glossary/mvp/">MVP</a>s. Don’t wait until something is “done” to find out if it’s the right thing.</li>
+  <li>Iterate on feedback that is given, and repeat the cycle to build trust with collaborators.</li>
+  <li>Use tools that allow for simultaneous and asynchronous collaboration.</li>
+  <li>Invite ideas from everywhere – team members, stakeholders, and customers should all be able to “submit a bug” or “suggest a feature”.</li>
+</ul>
+
+<h3 id="keep-the-work-visible">Keep the work visible</h3>
+
+<ul>
+  <li>Share product roadmaps and team plans as openly as possible, so people can refer to them at any time to get aligned.</li>
+  <li>Document everything in a “<a href="https://docs.google.com/document/d/1xrBPTGR_7R5FCGja-p2rXaMcN4NAjuE_6pKqPcYwOvQ/edit#heading=h.xys8wwauimls">Single Source of Truth</a>” that contains all the information, deadlines, reports, and links for the project so knowledge is shared.</li>
+  <li>Use <a href="#heading=h.xg73hzgx2e8i">project tracking software</a> that allows the team to follow along as tasks are completed (this is helpful for any kind of project, not just software development.)</li>
+  <li>For software projects, keep the documentation close to the code (or written into it).</li>
+</ul>
+
+<h3 id="have-the-whole-team-act-distributed">Have the whole team ‘act’ distributed</h3>
+
+<ul>
+  <li>If you have some employees in the office and some remote, have everyone use the same online project management tools so people stay aligned.</li>
+  <li>Have all team members use video conferencing for meetings, not just the teleworkers.</li>
+  <li>Have everyone add their working hours, availability, and timezones to their calendars and group chat profiles.</li>
+  <li>Set team agreements for response times for different channels (i.e., group chat, email, project tickets) so people know when a quick answer is expected, and when it’s not.</li>
+</ul>
+
+<h3 id="foster-human-connection-and-accountability">Foster human connection and accountability</h3>
+
+<ul>
+  <li>Celebrate project “wins” by hosting virtual happy hours or pizza parties.</li>
+  <li>Write appreciation into your project management practices (e.g., start retrospectives by acknowledging each team member’s contributions).</li>
+  <li>Make it a rule to assume best intentions, as virtual communications can be more easily misinterpreted than face-to-face talks.</li>
+  <li>Let your team know that mistakes happen, and openly acknowledging them is encouraged.</li>
+</ul>
+
+<h3 id="be-a-servant-leader">Be a servant leader</h3>
+
+<ul>
+  <li>Instead of asking when something will be done, ask if there are blockers you can help clear.</li>
+  <li>Set expectations and give teams the tools to track and submit their work openly.</li>
+  <li>Choose trust over surveillance – allow people the space and flexibility to get their work done on their own terms, within agreed-upon timelines.</li>
+  <li>Encourage question asking. Clarity is exponentially more important in distributed teams.</li>
+  <li>Set up “office hours” where anyone can drop by with a question or to brainstorm solutions.</li>
+  <li>Assign a <a href="https://about.gitlab.com/handbook/people-group/directly-responsible-individuals/">DRI</a> (Directly Responsible Individual) for each part of the project, so everyone knows who is responsible for what.</li>
+</ul>
+
+<h3 id="keep-lines-of-communication-open">Keep lines of communication open</h3>
+
+<ul>
+  <li>Hold daily check-ins with project teams to quickly get the latest information:
+    <ul>
+      <li>What I worked on yesterday</li>
+      <li>What I’m working on today</li>
+      <li>Questions / blockers / action items</li>
+    </ul>
+  </li>
+  <li>Have the team put questions and updates in group channels so knowledge is shared.</li>
+  <li>Maintain a “risk register” where anyone can view potential risks throughout the project.</li>
+  <li>Set standards and “rules of engagement” for dealing with tensions and conflict.</li>
+</ul>
+
+<h3 id="reflect-and-improve">Reflect and improve</h3>
+
+<ul>
+  <li>Use retrospectives to reflect as a group on how a project or process could be improved.
+    <ul>
+      <li>What do we appreciate about each member of the group?</li>
+      <li>What is going well?</li>
+      <li>What could be better?</li>
+      <li>Action items for moving forward</li>
+    </ul>
+  </li>
+  <li>Run “tool-checks” by asking team members for feedback on the tools you are using for remote collaboration.
+    <ul>
+      <li>How is this tool working well?</li>
+      <li>Are there any pain points?</li>
+    </ul>
+  </li>
+  <li>Document all reflections and action items in a shared space where everyone can refer back to them.</li>
+  <li>Don’t be discouraged by problems that arise from managing projects in distributed teams – write down your learnings and make adjustments as necessary.</li>
+</ul>
+
+<h2 id="tools">Tools</h2>
+
+<ul>
+  <li><a href="https://github.com/">GitHub</a></li>
+  <li><a href="https://about.gitlab.com/">GitLab</a></li>
+  <li><a href="https://trello.com/">Trello</a></li>
+  <li><a href="https://www.atlassian.com/software/jira">Jira</a></li>
+  <li><a href="https://basecamp.com/">Basecamp</a></li>
+  <li><a href="https://asana.com/">Asana</a></li>
+  <li><a href="https://monday.com/">Monday.com</a></li>
+  <li><a href="https://todoist.com/">ToDoist</a></li>
+</ul>
+
+<h2 id="resources">Resources</h2>
+
+<h3 id="posts">Posts</h3>
+
+<ul>
+  <li><a href="https://twist.com/remote-work-guides/remote-project-management">Remote Projects 101: The Remote Guide to Project Management</a> (Twist)</li>
+  <li><a href="https://doist.com/blog/how-we-manage-projects-on-a-fully-remote-team/">This Is How We Manage Projects on a Fully Remote Team</a> (Doist)</li>
+  <li><a href="https://corrus.com/blog/how-to-successfully-project-manage-distributed-teams/">How to successfully project manage distributed teams</a> (Corrus)</li>
+</ul>
+
+<h3 id="videos">Videos</h3>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=rb3LhwPr7P4">Managing Remote Teams Successfully: Remote Project Management Tips &amp; Tactics</a></li>
+</ul>
+
+            <h2>Related</h2>
+            <ul>
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="/guide/communications/">Communications</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="/guide/managing/">Managing</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="/guide/meetings/">Meetings</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="/guide/security/">Security</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Services</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-group">
+    
+    <div class="card">
+        <div class="card-body icon">
+            <a href="/training/" class="stretched-link"><i class="fas fa-certificate"></i></a>
+            <h3><a href="/training/">Training</a></h3>
+            <p>Get training to help your agency establish remote / telework policies and best practices.</p>
+            <a class="btn btn-primary" href="/training/" role="button">Training</a>
+        </div>
+        <div class="card-footer">
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-body icon">
+            <a href="/coaching/" class="stretched-link"><i class="fas fa-shapes"></i></a>
+            <h3><a href="/coaching/">Coaching</a></h3>
+            <p>Get coaching to help your agency establish remote / telework policies and best practices.</p>
+            <a class="btn btn-primary" href="/coaching/" role="button">Coaching</a>
+        </div>
+        <div class="card-footer">
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-body icon">
+            <a href="/consulting/" class="stretched-link"><i class="fas fa-lightbulb"></i></a>
+            <h3><a href="/consulting/">Consulting</a></h3>
+            <p>Get consulting to help your agency establish remote / telework policies and best practices.</p>
+            <a class="btn btn-primary" href="/consulting/" role="button">Consulting</a>
+        </div>
+        <div class="card-footer">
+        </div>
+    </div>
+    
+</div>
+        </div>
+    </div>
+</div>
+</main>
+<footer>
+    <div class="container edit text-right">
+        <div class="row">
+            <div class="col-md-12">
+                <p><a href="https://github.com/distributedgov/distributedgov.github.io/edit/master/_guide/project-management.md" class="btn btn-outline-secondary" role="button">Edit this page</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>About</h3>
+                    <ul>
+                        
+                        <li><a href="/services/">Services</a></li>
+                        
+                        <li><a href="/people/">People</a></li>
+                        
+                        <li><a href="/guide/">Guide</a></li>
+                        
+                        <li><a href="/help/">Help</a></li>
+                        
+                        <li><a href="/news/">News</a></li>
+                        
+                        <li><a href="/contact/">Contact</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>Suggest</h3>
+                    <p>Have ideas or need other remote/telework services?</p>
+                    <br>
+                    <a class="btn btn-primary" href="/suggest" role="button">Suggest</a>
+                </div>
+                <div class="col-md-3">
+                    <h2>Connect</h2>
+                    <p>
+                        <a href="https://github.com/distributedgov"><i class="fab fa-github"></i></a>
+                        
+                        
+                        <a href="https://twitter.com/distributedgov"><i class="fab fa-twitter"></i></a>
+                        
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h2>License</h2>
+                    <p><a href="https://creativecommons.org/licenses/by-sa/4.0/)">Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

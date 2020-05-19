@@ -1,0 +1,63 @@
+---
+layout: wrapper
+---
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ site.url}}/guide{{ item.url }}">Distributed Government Guide</a></li>
+        <!--<li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>-->
+    </ol>
+</nav>
+<div class="container-fluid guide section">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="list-group">
+                {% for item in site.data.guide.docs %}
+                <a href="/guide{{ item.url }}" class="list-group-item list-group-item-action {% if item.url == page.url %}active{% endif %}">{{ item.title }}</a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-md-9">
+            <h1 class="">{{ page.title }}</h1>
+            <p class="lead">{{ page.description }}</p>
+            {{ content }}
+            <h2>Related</h2>
+            <ul>
+                {% assign maxRelated = 10 %}
+                {% assign minCommonTags = 1 %}
+                {% assign maxRelatedCounter = 0 %}
+                {% for post in site.guide %}
+                {% assign sameTagCount = 0 %}
+                {% assign commonTags = '' %}
+                {% for category in post.categories %}
+                {% if post.url != page.url %}
+                {% if page.categories contains category %}
+                {% assign sameTagCount = sameTagCount | plus: 1 %}
+                {% capture tagmarkup %} <span class="label label-default">{{ category }}</span> {% endcapture %}
+                {% assign commonTags = commonTags | append: tagmarkup %}
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+                {% if sameTagCount >= minCommonTags %}
+                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+                {% if maxRelatedCounter >= maxRelated %}
+                {% break %}
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Services</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            {% include services.html %}
+        </div>
+    </div>
+</div>

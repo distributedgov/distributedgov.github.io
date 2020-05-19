@@ -1,0 +1,31 @@
+---
+layout: default
+title: Training
+description: Courses to help public service teams build highly effective remote and telework environments.
+---
+<div class="container">
+    <div class="row">
+        {% for training in site.training %}
+        <div class="col-md-4">
+            <div class="card-group">
+                <div class="card">
+                    <div class="card-body icon">
+                        <a href="{{ training.url }}"><i class="fas fa-certificate"></i></a>
+                        <h2>
+                            <a href="{{ training.url }}" class="stretched-link">
+                                {{ training.title }}
+                            </a>
+                        </h2>
+                        <p>
+                            {{ training.description }}
+                        </p>
+                        <a class="btn btn-primary" href="{{ training.url }}" role="button">Training</a>
+                    </div>
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

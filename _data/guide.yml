@@ -1,0 +1,42 @@
+docs_list_title: nav_guide
+docs:
+
+- title: Welcome
+  url: /welcome
+  icon: <i class="fa fa-sun" aria-hidden="true"></i>
+
+- title: Why distributed
+  url: /why-distributed/
+  icon: <i class="fa fa-question-circle" aria-hidden="true"></i>
+
+- title: Getting started
+  url: /getting-started/
+  icon: <i class="fa fa-play-circle" aria-hidden="true"></i>
+
+- title: Security
+  url: /security/
+  icon: <i class="fa fa-lock" aria-hidden="true"></i>
+
+- title: Communications
+  url: /communications/
+  icon: <i class="fas fa-comments"></i>
+
+- title: Managing
+  url: /managing/
+  icon: <i class="fas fa-users" aria-hidden="true"></i>
+
+- title: Meetings
+  url: /meetings/
+  icon: <i class="fa fa-gavel" aria-hidden="true"></i>
+
+- title: Project management
+  url: /project-management/
+  icon: <i class="fas fa-tasks" aria-hidden="true"></i>
+
+- title: Technology
+  url: /technology/
+  icon: <i class="fa fa-laptop" aria-hidden="true"></i>
+
+- title: Policies
+  url: /policies/
+  icon: <i class="fa fa-file-alt" aria-hidden="true"></i>

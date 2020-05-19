@@ -1,0 +1,45 @@
+---
+layout: default
+title: News
+description: Latest remote / telework news and ideas for distributed government teams.
+---
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <!-- post list -->
+            {% for post in paginator.posts %}
+            <a href="{{post.url | prepend: site.baseurl}}">
+                <h2>{{post.title}}
+            </a></h2>
+            <p class="text-muted">{{ post.date | date: "%B, %-d %Y"}}</p>
+            <p> {{ post.description }}</p>
+            {% endfor %}
+            <!-- pagination -->
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    {% if paginator.total_pages > 1 %}
+                    {% if paginator.previous_page %}
+                    <li class="page-item"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-link">&laquo; Prev</a></li>
+                    {% else %}
+                    <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">&laquo; Prev</a></li>
+                    {% endif %}
+                    {% for page in (1..paginator.total_pages) %}
+                    {% if page == paginator.page %}
+                    <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">{{ page }}</a></li>
+                    {% elsif page == 1 %}
+                    <li class="page-item"><a href="/" class="page-link">{{ page }}</a></li>
+                    {% else %}
+                    <li class="page-item"><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="page-link">{{ page }}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                    {% if paginator.next_page %}
+                    <li class="page-item"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-link">Next &raquo;</a></li>
+                    {% else %}
+                    <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">Next &raquo;</a></li>
+                    {% endif %}
+                    {% endif %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>

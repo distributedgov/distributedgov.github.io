@@ -1,0 +1,100 @@
+---
+layout: default
+---
+<div class="container section">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>About this {{ page.service | downcase }}</h2>
+            <p>{{ page.service_about }}</p>
+            <h2>Who it's for</h2>
+            <ul>
+                {% for item in page.who %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+            <h2>Skills you gain</h2>
+            <ul class="nav nav-pills">
+                {% for item in page.categories %}
+                <li class="nav-item">{{ item }}</li>
+                {% endfor %}
+            </ul>
+            <h2>What you learn</h2>
+            <ul class="fa-ul">
+                {% for item in page.what_you_learn %}
+                <li><span class="fa-li"><i class="fas fa-check"></i></span> {{ item }}</li>
+                {% endfor %}
+            </ul>
+            <h2>Format</h2>
+            <ul>
+                {% for item in page.format %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-md-4 details">
+            <div class="alert-info">
+                <h2><i class="fas fa-certificate"></i> Skill level</h2>
+                <p>{{ page.skill_level }}</p>
+                <h2><i class="far fa-clock"></i> Time to complete</h2>
+                <p>{{ page.time_to_complete }}</p>
+                <h2><i class="fas fa-money-check"></i> Cost</h2>
+                <p>{{ page.cost }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container people">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Coach</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            {% assign author = site.data.people[page.author] %}
+            <div class="people bio">
+                <a href="{{ author.url }}"><img src="{{ site.url }}/img/people/{{ author.image }}" alt="{{ author.name }}" title="{{ author.name }}"></a>
+                <p class="people-social">
+                    {% if author.linkedin %}
+                    <a href="{{ author.linkedin }}"><i class="fab fa-linkedin"></i></a>
+                    {% endif %}
+                    {% if author.github %}
+                    <a href="https://github.com/{{ author.github }}"><i class="fab fa-github"></i></a>
+                    {% endif %}
+                    {% if author.twitter %}
+                    <a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-twitter"></i></a>
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <h3>{{ author.name }}</h3>
+            <p>{% if author.bio %}
+                {{ author.bio }}
+            </p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+</div>
+<div class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p><a class="btn btn-primary btn-lg" href="{{ page.form }}" role="button">Request {{ page.service | downcase }}</a> &nbsp; Questions? <a href="{{ site.url }}/contact">Contact us</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Services</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            {% include services.html %}
+        </div>
+    </div>
+</div>

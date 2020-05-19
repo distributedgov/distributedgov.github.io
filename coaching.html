@@ -1,0 +1,31 @@
+---
+layout: default
+title: Coaching
+description: Get coaching to help your agency establish remote / telework policies and best practices..
+---
+<div class="container">
+    <div class="row">
+        {% for coaching in site.coaching %}
+        <div class="col-md-4">
+            <div class="card-group">
+                <div class="card">
+                    <div class="card-body icon">
+                        <a href="{{ coaching.url }}"><i class="fas fa-shapes"></i></a>
+                        <h2>
+                            <a href="{{ coaching.url }}" class="stretched-link">
+                                {{ coaching.title }}
+                            </a>
+                        </h2>
+                        <p>
+                            {{ coaching.description }}
+                        </p>
+                        <a class="btn btn-primary" href="{{ coaching.url }}" role="button">Coaching</a>
+                    </div>
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

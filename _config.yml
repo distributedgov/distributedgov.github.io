@@ -1,0 +1,113 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+name: DistributedGov
+email: distributedgov@civicactions.com
+description: Helping public service teams build highly effective remote and telework environments.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://distributedgov.org" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: distributedgov
+twitter_username: distributedgov
+powered_by: CivicActions
+powered_by_url: https://civicactions.com
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  
+repo: https://github.com/distributedgov/distributedgov.github.io/
+branch: master
+
+feed:
+  path: news/atom.xml
+
+permalink: pretty
+permalink: /:title/
+
+include: ["_consulting"]
+permalink: /:title/
+future: true
+
+include: ["_coaching"]
+permalink: /:title/
+future: true
+
+include: ["_training"]
+permalink: /:title/
+future: true
+
+include: ["_guide"]
+permalink: guide/:title/
+future: true
+
+include: ["help"]
+permalink: help/:title/
+future: true
+
+include: ["_posts"]
+permalink: /:title/
+future: true
+
+collections:
+  training:
+    output: true
+  consulting:
+    output: true
+  people:
+    output: true
+  guide:
+    output: true
+  news:
+    output: true
+  coaching:
+    output: true
+  help:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "people"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+paginate: 10
+paginate_path: "/news/page:num/"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - _training/TEMPLATE-training.md
+  - _coaching/TEMPLATE-coaching.md
+  - _consulting/TEMPLATE-consulting.md
+  - _help/TEMPLATE-help.md
+  - _people/people-TEMPLATE.md
+  - Gemfile
+  - Gemfile.lock

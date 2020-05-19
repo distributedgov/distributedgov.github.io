@@ -1,0 +1,49 @@
+<footer>
+    <div class="container edit text-right">
+        <div class="row">
+            <div class="col-md-12">
+                <p><a href="{{ site.repo }}edit/{{ site.branch }}/{{ page.path }}" class="btn btn-outline-secondary" role="button">Edit this page</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>About</h3>
+                    <ul>
+                        {% for item in site.data.about.docs %}
+                        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>Suggest</h3>
+                    <p>Have ideas or need other remote/telework services?</p>
+                    <br>
+                    <a class="btn btn-primary" href="/suggest" role="button">Suggest</a>
+                </div>
+                <div class="col-md-3">
+                    <h2>Connect</h2>
+                    <p>{% if site.github_username %}
+                        <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i></a>
+                        {% endif %}
+                        {% if site.twitter_username %}
+                        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter"></i></a>
+                        {% endif %}
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h2>License</h2>
+                    <p><a href="https://creativecommons.org/licenses/by-sa/4.0/)">Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+</body>
+
+</html>
