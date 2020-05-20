@@ -271,7 +271,9 @@ ul.fa-ul li {
 
 /* Nav pills */
 
-
+ul.nav-pills {
+    margin-bottom: 1rem;
+}
 
 .nav-pills li {
     background: #002f43;
@@ -298,7 +300,7 @@ ul.fa-ul li {
     margin-bottom: 2rem;
     margin-top: 2rem;
     padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-top: 3.5rem;
 }
 
 .bg-dark,

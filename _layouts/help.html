@@ -13,13 +13,13 @@ layout: wrapper
 <div class="container section">
     <div class="row">
         <div class="col-md-12">
-            <div class="alert alert-info" role="alert">
-                <h2>Question</h2>
-                <p></p>
-                <p>{{ page.question }} <span class="text-muted">(Posted: {{ page.date | date: "%B, %-d %Y"}})</span></p>
-            </div>
+            <h2>Question</h2>
+            <p></p>
+            <p>{{ page.question }} <span class="text-muted">(Posted: {{ page.date | date: "%B, %-d %Y"}})</span></p>
         </div>
     </div>
+</div>
+<div class="container">
     <div class="row">
         <div class="col-md-2">
             {% if page.author %}

@@ -31,6 +31,9 @@
                         {% if site.twitter_username %}
                         <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter"></i></a>
                         {% endif %}
+                        {% if site.rss %}
+                        <a href="{{ site.url }}/{{ site.rss }}"><i class="fas fa-rss"></i></a>
+                        {% endif %}
                     </p>
                 </div>
                 <div class="col-md-3">

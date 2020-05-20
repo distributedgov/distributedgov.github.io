@@ -27,6 +27,7 @@ github_username: distributedgov
 twitter_username: distributedgov
 powered_by: CivicActions
 powered_by_url: https://civicactions.com
+rss: news/atom.xml
 
 # Build settings
 markdown: kramdown
@@ -109,5 +110,6 @@ exclude:
   - _consulting/TEMPLATE-consulting.md
   - _help/TEMPLATE-help.md
   - _people/people-TEMPLATE.md
+  - assets
   - Gemfile
   - Gemfile.lock
