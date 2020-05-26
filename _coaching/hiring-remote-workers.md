@@ -4,6 +4,7 @@ layout: coaching
 service: Coaching
 title: Hiring Remote Workers
 description: Coaching to help government teams establish policies and best practices for remote/telework.
+excerpt: 
 author: gracemckinney
 service_about: Effective Distributed Teams in Government provides government teams with strategies, tools, and best practices for working effectively in a distributed (remote/telework) model. The offering is customizable to your agency and will help you improve team performance, streamline communications, save on operational costs, and boost workforce diversity and retention.
 cost: Varies according to arrangement

@@ -2,6 +2,7 @@
 layout: guide
 title: Project management
 description: How to effectively manage tasks and projects in remote/telework teams.
+excerpt: How to effectively manage tasks and projects in remote/telework teams.
 categories: [Communications, Managing, Meetings, Project management]
 
 ---

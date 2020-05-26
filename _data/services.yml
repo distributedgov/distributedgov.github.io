@@ -5,13 +5,16 @@ docs:
   url: /training/
   icon: <i class="fas fa-certificate"></i>
   description: Get customizable training for small or large groups at your agency on remote / telework best practices -- from setup and security to communications and culture.
+  excerpt: Get customizable training for small or large groups at your agency on remote / telework best practices -- from setup and security to communications and culture.
 
 - title: Coaching
   url: /coaching/
   icon: <i class="fas fa-shapes"></i>
-  description: Get personalized coaching for individuals or small groups at your agency to master the skills needed for effective distributed teams.
+  description: Get customizable training for small or large groups at your agency on remote / telework best practices -- from setup and security to communications and culture.
+  excerpt: Get customizable training for small or large groups at your agency on remote / telework best practices -- from setup and security to communications and culture.
 
 - title: Consulting
   url: /consulting/
   icon: <i class="fas fa-lightbulb"></i>
   description: Get consulting services for developing telework policies and structures that empower distributed teams and increase your agency’s resiliency in the digital age.
+  excerpt: Get consulting services for developing telework policies and structures that empower distributed teams and increase your agency’s resiliency in the digital age.

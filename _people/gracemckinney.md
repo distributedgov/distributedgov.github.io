@@ -1,6 +1,6 @@
 ---
 author: gracemckinney
-title: Grace McKinney
+title: 
 name: Grace McKinney
 twitter: 
 linkedin: https://www.linkedin.com/in/gracemckinney/

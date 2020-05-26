@@ -3,6 +3,7 @@
 layout: post
 title: Welcome to DistributedGov
 description: Helping public service teams build highly effective remote and telework environments.
+excerpt: Helping public service teams build highly effective remote and telework environments.
 date: 2020-05-15 20:34:01 -0700
 categories: [Remote, Telework]
 tags: 

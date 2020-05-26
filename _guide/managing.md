@@ -2,6 +2,7 @@
 layout: guide
 title: Managing
 description: How to effectively lead remote/telework teams.
+excerpt: How to effectively lead remote/telework teams.
 categories: [Communications, Managing, Meetings, Project management]
 
 ---

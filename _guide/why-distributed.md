@@ -2,6 +2,7 @@
 layout: guide
 title: Why distributed government
 description: We’re at the point in the organizational and civic evolutionary cycle where distributed government teams will play a critical role in building highly-effective public service teams.
+excerpt: We’re at the point in the organizational and civic evolutionary cycle where distributed government teams will play a critical role in building highly-effective public service teams.
 categories: [Remote, Telework]
 
 ---
@@ -10,7 +11,7 @@ As civic leaders wrestle with and seriously address the issues of our times — 
 
 ## Defining distributed
 
-John O’Duinn, author of[ Distributed Teams: The Art and Practice of Working Together While Physically Apart](https://www.amazon.com/dp/1732254907/ref=cm_sw_su_dp), has written the definitive book on why distributed teams are important, and how they can be even more effective than their collocated counterparts.
+John O’Duinn, author of [Distributed Teams: The Art and Practice of Working Together While Physically Apart](https://www.amazon.com/dp/1732254907/ref=cm_sw_su_dp), has written the definitive book on why distributed teams are important, and how they can be even more effective than their collocated counterparts.
 
 O’Duinn makes clear [distinctions](https://oduinn.com/2020/02/25/distributed-team-vs-remote-work-and-work-from-home/) between ‘distributed teams,’ ‘virtual teams,’ ‘virtual employee,’ ‘remote work,’ ‘remote employee,’ ‘work from home,’ ‘work from anywhere’ and ‘telework’. The subtle differences in these terms affect our perceptions and assumptions about distributed teams.
 

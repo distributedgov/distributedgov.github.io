@@ -2,6 +2,7 @@
 layout: guide
 title: Getting started
 description: How to effectively transition from co-located to a distributed team.
+excerpt: How to effectively transition from co-located to a distributed team.
 categories: [Remote, Telework]
 
 ---

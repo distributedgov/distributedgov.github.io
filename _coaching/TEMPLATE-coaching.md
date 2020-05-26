@@ -4,6 +4,7 @@ layout: coaching
 service: Coaching
 title: 
 description: 
+excerpt: 
 service_about: 
 cost: 
 form: /request

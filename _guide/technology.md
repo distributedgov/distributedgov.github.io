@@ -2,6 +2,7 @@
 layout: guide
 title: Technology
 description: Recommendations for selecting effective remote/telework technologies and tools.
+excerpt: Recommendations for selecting effective remote/telework technologies and tools.
 categories: [Security, Technology, Policy]
 
 ---

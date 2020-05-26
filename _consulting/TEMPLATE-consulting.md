@@ -4,6 +4,7 @@ layout: consulting
 service: Consulting
 title: 
 description: 
+excerpt: 
 author: 
 service_about: 
 cost: 

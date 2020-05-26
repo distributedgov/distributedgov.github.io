@@ -2,6 +2,7 @@
 layout: help
 title: Zoom Security and Fixing 'Zoom Bombing'
 description: Given all the newly-working-from-home zoom users out there, and the recent flurry of security alerts for Zoom video conference software, I thought this summary would be helpful.
+excerpt: 
 date: 2020-05-19 20:34:01 -0700
 question: What is Zoom bombing?
 categories: [Communications, Managing, Meetings, Security]

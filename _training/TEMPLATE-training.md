@@ -4,6 +4,7 @@ layout: training
 service: Training
 title: 
 description: 
+excerpt: 
 author: 
 service_about: 
 skill_level: 
