@@ -18,7 +18,7 @@ Zoom offers a [government-oriented version](https://zoom.us/government) of its s
 
 “Zoom for Government” is a paid tier of Zoom that is hosted in a separate cloud and allows a greater range of features and control -- thus offering potentially better security through advanced settings. Some agencies (especially those with large-scale meeting needs) may decide this option makes Zoom an acceptable tool to meet security standards. 
 
-However, even the free version of Zoom can be configured to offer a high level of security -- here is [Zoom’s guide(https://zoom.us/docs/doc/Securing%20Your%20Zoom%20Meetings.pdf) to help you do that. As with most things in government, the decision to Zoom or not to Zoom will be influenced by a variety of evolving factors and will look different from one agency to another. A few things to keep in mind:
+However, even the free version of Zoom can be configured to offer a high level of security -- here is [Zoom’s guide](https://zoom.us/docs/doc/Securing%20Your%20Zoom%20Meetings.pdf) to help you do that. As with most things in government, the decision to Zoom or not to Zoom will be influenced by a variety of evolving factors and will look different from one agency to another. A few things to keep in mind:
 
 **Settings matter.** Knowing how to configure your meetings makes a huge difference in their security and privacy. Learn how to use settings to your advantage.
 
