@@ -7,19 +7,23 @@ excerpt: Remote / telework support.
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            {% for help in site.help %}
+            {% assign sorted = (site.help | sort: 'date') | reverse %}
+            {% for item in sorted %}
             <h2>
-                <a href="{{ help.url }}">
-                    {{ help.title }}
-                </a>
+                <a href="{{ item.url }}">{{ item.title }}</a>
             </h2>
-            <p>
-                {{ help.description }}
-            </p>
-            {% endfor %}
-            <div class="alert alert-secondary" role="alert">
-                <p><strong>Have a question?</strong> <a href="{{ site.url }}/ask">Ask us anything</a>.</p>
-            </div>
+            <p class="text-muted">{{ item.date | date: "%B, %-d %Y" }} &middot;
+                {% if item.author %}
+                {% assign author = site.data.people[item.author] %}
+                <a href="{{ author.url }}">{{ author.name }}</a>
+                {% endif %}
+                <p>
+                    {{ item.description }}
+                </p>
+                {% endfor %}
+                <div class="alert alert-secondary" role="alert">
+                    <p><strong>Have a question?</strong> <a href="{{ site.url }}/ask">Ask us anything</a>.</p>
+                </div>
         </div>
     </div>
 </div>

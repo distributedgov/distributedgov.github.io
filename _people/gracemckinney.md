@@ -7,7 +7,7 @@ linkedin: https://www.linkedin.com/in/gracemckinney/
 github: 
 url: /people/gracemckinney
 bio: 
-bio_short: Grace is committed to work that has a large impact on people’s lives.
+bio_short: Hiring manager focused on diversity and impact for distributed teams
 image: grace-mckinney.png
 
 ---

@@ -24,8 +24,10 @@ layout: default
                 <li>{{ item }}</li>
                 {% endfor %}
             </ul>
+            {% if page.cost %}
             <h2>Cost</h2>
             <p>{{ page.cost }}</p>
+            {% endif %}
         </div>
         <div class="col-md-4 details">
             <div class="alert-info">
