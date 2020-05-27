@@ -47,16 +47,22 @@ layout: wrapper
 -->
             {% if author.bio %}
             <h2>About</h2>
-            {{ author.bio }}
+            {{ author.bio | markdownify }}
             {% endif %}
-            {% if site.posts %}
+
             <h2>Posts</h2>
             {% assign filtered_posts = site.posts | where: 'author', page.author %}
             {% for post in filtered_posts %}
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p class="text-muted">{{ post.date | date: "%B, %-d %Y"}}</p>
+            <p class="text-muted">{{ post.date | date: "%B %-d, %Y" }}</p>
             {% endfor %}
-            {% endif %}
+
+            <h2>Help</h2>
+            {% assign sorted = site.help | sort: 'date' | reverse | where: 'author', page.author %}
+            {% for item in sorted %}
+            <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+            <p class="text-muted">Posted: {{ item.date | date: "%B %-d, %Y, %r %Z" }}</p>
+            {% endfor %}
         </div>
         <div class="col-md-4">
         </div>

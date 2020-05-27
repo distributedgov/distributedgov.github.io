@@ -12,7 +12,7 @@ excerpt: Remote / telework support.
             <h2>
                 <a href="{{ item.url }}">{{ item.title }}</a>
             </h2>
-            <p class="text-muted">{{ item.date | date: "%B, %-d %Y" }} &middot;
+            <p class="text-muted">Posted: {{ item.date | date: "%B, %-d %Y" }} &middot;
                 {% if item.author %}
                 {% assign author = site.data.people[item.author] %}
                 <a href="{{ author.url }}">{{ author.name }}</a>

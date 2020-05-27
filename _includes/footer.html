@@ -11,17 +11,17 @@
             <div class="row">
                 <div class="col-md-3">
                     <h2>About</h3>
-                    <ul>
-                        {% for item in site.data.about.docs %}
-                        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-                        {% endfor %}
-                    </ul>
+                        <ul>
+                            {% for item in site.data.about.docs %}
+                            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                            {% endfor %}
+                        </ul>
                 </div>
                 <div class="col-md-3">
                     <h2>Suggest</h3>
-                    <p>Have ideas or need other remote/telework services?</p>
-                    <br>
-                    <a class="btn btn-primary" href="/suggest" role="button">Suggest</a>
+                        <p>Have ideas or need other remote/telework services?</p>
+                        <br>
+                        <a class="btn btn-primary" href="/suggest" role="button">Suggest</a>
                 </div>
                 <div class="col-md-3">
                     <h2>Connect</h2>
@@ -42,6 +42,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="fixed-bottom">
+        {% include share.html %}
     </div>
 </footer>
 {% if jekyll.environment == 'production' %}

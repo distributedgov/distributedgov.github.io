@@ -184,6 +184,14 @@ h4 a:visited {
     margin-right: .75rem;
 }
 
+.jumbotron .people-social a,
+.jumbotron .people-social a:visited,
+.jumbotron .people-social a:hover {
+    color: #ffffff;
+    font-size: 1.25rem;
+    margin-right: .75rem;
+}
+
 .post-bio {
     border-top: 1px solid #f1f1f1;
     margin-top: 1.5rem;
@@ -450,7 +458,7 @@ a.btn-outline-secondary:hover {
     background: #002f43;
     color: #ffffff;
     margin-top: .5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 6rem;
     padding-top: 2rem;
 }
 
@@ -482,4 +490,90 @@ a.btn-outline-secondary:hover {
     font-size: 100%;
     margin: 0;
     padding: .5em 0;
+}
+
+/* Share */
+
+.share-box {
+    background-color: #002f43;
+    padding: .75rem 0 .25rem 0;
+    color: #ffffff;
+}
+
+.share-box a {
+    color: #ffffff;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 3px;
+    padding: 5px 12px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.share-box a:hover {
+    text-decoration: none;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.f,
+a.f:visited {
+    color: #fff;
+    background-color: #3b5998;
+}
+
+a.f:hover {
+    color: #ffffff;
+}
+
+.t,
+a.t:visited {
+    color: #4099FF;
+    background-color: #4099FF;
+}
+
+a.t:hover {
+    color: #fff;
+}
+
+.g,
+a.g:visited {
+    color: #d34836;
+    background-color: #d34836;
+}
+
+a.g:hover {
+    color: #fff;
+}
+
+.r,
+a.r:visited {
+    color: #ff5700;
+    background-color: #ff5700;
+}
+
+a.r:hover {
+    color: #fff;
+}
+
+.l,
+a.l:visited {
+    color: #0077b5;
+    background-color: #0077b5;
+}
+
+a.l:hover {
+    color: #fff;
+}
+
+.e,
+a.e:visited {
+    color: #444444;
+    background-color: #444444;
+}
+
+a.e:hover {
+    color: #fff;
 }
