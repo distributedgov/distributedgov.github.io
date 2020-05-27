@@ -3,7 +3,7 @@ layout: help
 title: Zoom for Government
 description: Overview of Zoom video conferencing for government agencies and security considerations.
 excerpt: Overview of Zoom video conferencing for government agencies and security considerations.
-date: 2020-05-27 14:00:00
+date: 2020-05-27 14:00:00 -0700
 question: What is Zoom for Government?
 categories: [Remote, Telework, Security, Communications, Meetings, Project management, Technology]
 tags: 
