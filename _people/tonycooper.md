@@ -2,6 +2,7 @@
 author: tonycooper
 title: 
 name: Tony Cooper
+description: Entrepreneur, Human Potential Facilitator & Co-Author of <em>Diamond Goldfish</em>
 twitter: 
 linkedin: 
 github: 

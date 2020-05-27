@@ -7,7 +7,7 @@ excerpt: Remote / telework support.
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            {% assign sorted = (site.help | sort: 'date') | reverse %}
+            {% assign sorted = site.help | sort: 'date' | reverse %}
             {% for item in sorted %}
             <h2>
                 <a href="{{ item.url }}">{{ item.title }}</a>

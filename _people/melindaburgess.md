@@ -1,7 +1,8 @@
 ---
 author: melindaburgess
-title: 
+title: Melinda Burgess
 name: Melinda Burgess
+description: Strategist, writer, and distributed teams operations specialist
 twitter: 
 linkedin: https://www.linkedin.com/in/gracemckinney/
 github: 

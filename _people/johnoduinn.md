@@ -2,6 +2,7 @@
 author: johnoduinn
 title: John O'Duinn
 name: John O'Duinn
+description: Author, <em>Distributed Teams - The Art and Practice of Working Together While Physically Apart</em>
 twitter: joduinn
 linkedin: https://www.linkedin.com/in/joduinn/
 github: joduinn

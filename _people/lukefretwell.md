@@ -2,6 +2,7 @@
 author: lukefretwell
 title: Luke Fretwell
 name: Luke Fretwell
+description: Entrepreneur and writer focused on civics and technology
 twitter: lukefretwell
 linkedin: https://www.linkedin.com/in/lukefretwell
 github: lukefretwell

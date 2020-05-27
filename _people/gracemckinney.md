@@ -1,7 +1,8 @@
 ---
 author: gracemckinney
-title: 
+title: Grace McKinney
 name: Grace McKinney
+description: Hiring manager focused on diversity and impact for distributed teams
 twitter: 
 linkedin: https://www.linkedin.com/in/gracemckinney/
 github: 

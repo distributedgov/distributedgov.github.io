@@ -1,5 +1,6 @@
 johnoduinn:
     name: John O'Duinn
+    title: John O'Duinn
     twitter: joduinn
     linkedin: https://www.linkedin.com/in/joduinn/
     github: joduinn
@@ -14,6 +15,7 @@ johnoduinn:
 
 lukefretwell:
     name: Luke Fretwell
+    title: Luke Fretwell
     twitter: lukefretwell
     linkedin: https://www.linkedin.com/in/lukefretwell
     github: lukefretwell
@@ -27,6 +29,7 @@ lukefretwell:
 
 gracemckinney:
     name: Grace McKinney
+    title: Grace McKinney
     twitter: 
     linkedin: https://www.linkedin.com/in/gracemckinney/
     github: 
@@ -40,6 +43,7 @@ gracemckinney:
 
 joanbordeau:
     name: Joan Bordeau
+    title: Joan Bordeau
     twitter: 
     linkedin: 
     github: 
@@ -52,6 +56,7 @@ joanbordeau:
 
 tonycooper:
     name: Tony Cooper
+    title: Tony Cooper
     twitter: 
     linkedin: 
     github: 
@@ -64,6 +69,7 @@ tonycooper:
 
 melindaburgess:
     name: Melinda Burgess
+    title: Melinda Burgess
     twitter: 
     linkedin: 
     github: 

@@ -1,7 +1,8 @@
 ---
 author: joanbordeau
-title: 
+title: Joan Bordeau
 name: Joan Bordeau
+description: Seasoned Human Dynamics Course Leader, Coach & Author
 twitter: 
 linkedin: https://www.linkedin.com/in/gracemckinney/
 github: 
