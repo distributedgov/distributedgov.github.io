@@ -7,8 +7,6 @@ description:
 excerpt: 
 author: 
 service_about: 
-skill_level: 
-time_to_complete: 
 cost: 
 form: /request
 categories:

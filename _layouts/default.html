@@ -17,6 +17,24 @@ layout: default
                     {% if page.excerpt %}
                     <p class="lead">{{ page.excerpt }}</p>
                     {% endif %}
+                    <p>
+                        {% assign authorCount = page.author | size %}
+                        {% if authorCount == 0 %}
+                        {% elsif authorCount == 1 %}
+                        {{ page.author | first }}
+                        {% else %}
+                        {% for author in page.author %}
+                        {% if forloop.first %}
+                        {{ author }}
+                        {% elsif forloop.last %}
+                        and {{ author }}
+                        {% else %}
+                        , {{ author }}
+                        {% endif %}
+                        {% endfor %}
+                        {% endif %}
+                    </p>
+                    <!--
                     {% if page.author %}
                     {% assign author = site.data.people[page.author] %}
                     <div class="people people-jumbotron">
@@ -28,6 +46,7 @@ layout: default
                         <p><a class="btn btn-primary btn-lg" href="{{ page.form }}" role="button">Request {{ page.service | downcase }}</a> &nbsp; Questions? <a href="{{ site.url }}/contact">Contact us</a></p>
                     </div>
                     {% endif %}
+                -->
                 </div>
             </div>
         </div>
