@@ -6,6 +6,7 @@ johnoduinn:
     github: joduinn
     bio: John O’Duinn is the author of "<a href="https://www.amzn.com/1732254907">Distributed Teams - The Art and Practice of Working Together While Physically Apart</a>." He is a senior technologist, entrepreneur, and frequent international speaker on the benefits and strategies for remote work. John served in the U.S. Digital Service in the Obama White House and has provided workshops and mentorship to distributed teams around the world. He co-created the State of Vermont policy encouraging remote work to promote economic growth, and is now supporting the development of similar policies for multiple jurisdictions worldwide.
     bio_short: Author, <em>Distributed Teams - The Art and Practice of Working Together While Physically Apart</em>
+    description: Author, <em>Distributed Teams - The Art and Practice of Working Together While Physically Apart</em>
     image: john-oduinn.jpg
     url: /people/johnoduinn
     contact: https://www.linkedin.com/in/joduinn/
@@ -21,6 +22,7 @@ lukefretwell:
     github: lukefretwell
     bio: Entrepreneur and writer focused on civics and technology
     bio_short: Entrepreneur and writer focused on civics and technology
+    description: Entrepreneur and writer focused on civics and technology
     image: luke-fretwell.jpg
     url: /people/lukefretwell
     expertise: 
@@ -35,6 +37,7 @@ gracemckinney:
     github: 
     bio: Grace is committed to work that has a large impact on people’s lives. She discovered the power of civic technology while working for the U.S. Digital Service. Now she helps CivicActions recruit talented people who are also passionate about transforming government services. Grace draws on experience and sound strategy for managing an efficient, equitable hiring process. Core competencies, data, and empathy for candidates guides her work. Grace has a Bachelor’s in English Literature, with a Minor in Women’s and Gender Studies from Georgetown University, where she was involved in feminist organizing on campus. She enjoys reading and yoga, but her newest, geekiest pleasure since entering civic tech is Dungeons & Dragons. 
     bio_short: Hiring manager focused on diversity and impact for distributed teams
+    description: Hiring manager focused on diversity and impact for distributed teams
     image: grace-mckinney.png
     url: /people/gracemckinney
     expertise: 
@@ -49,6 +52,7 @@ joanbordeau:
     github: 
     bio: 
     bio_short: Seasoned Human Dynamics Course Leader, Coach & Author
+    description: Seasoned Human Dynamics Course Leader, Coach & Author
     image: joan-bordeau.png
     url: /people/joanbordeau
     expertise:
@@ -62,6 +66,7 @@ tonycooper:
     github: 
     bio: 
     bio_short: Entrepreneur, Human Potential Facilitator & Co-Author of <em>Diamond Goldfish</em>
+    description: Entrepreneur, Human Potential Facilitator & Co-Author of <em>Diamond Goldfish</em>
     image: tony-cooper.png
     url: /people/tonycooper
     expertise:
@@ -75,6 +80,7 @@ melindaburgess:
     github: melindaburgess
     bio: Melinda is a content strategist and culture ambassador on a fully distributed team that helps government agencies modernize their services. Besides planning, writing, and managing digital content at CivicActions, she develops and implements organizational processes that help teams work smarter and better together while physically apart. As a mother of three, Melinda advocates and develops resources for parents who work from home (and contributes to the normalization of kids making random appearances during video calls)! She also serves on the board of AGL Association, a nonprofit supporting public sector innovation.
     bio_short: Strategist, writer, and distributed teams operations specialist
+    description: Strategist, writer, and distributed teams operations specialist
     image: melinda-burgess.jpg
     url: /people/melindaburgess
     expertise:

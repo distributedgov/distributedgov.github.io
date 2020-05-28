@@ -5,9 +5,7 @@ service: Training
 title: Recruiting and Hiring While Teleworking
 description: 
 excerpt: 
-author: 
-  - gracemckinney
-  - johnoduinn
+author: gracemckinney
 service_about: Recruiting and hiring while your team is teleworking can be challenging -- but it’s also an opportunity to embrace the benefits that distributed teams can bring to your agency. Train agency staff to securely and effectively  interview and onboard new team members in virtual environments.
 time_to_complete: Approximately 4.5 hours
 cost: 
