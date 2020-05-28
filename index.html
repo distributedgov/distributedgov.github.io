@@ -115,7 +115,7 @@ excerpt: Helping public service teams build highly effective remote and telework
             <ul>
                 {% assign sorted = site.help | sort: 'date' | reverse %}
                 {% for item in sorted %}
-                <li><a href="{{ item.url }}">{{ item.title }}</a> <span class="text-muted">({{ item.date | date: "%B %-d, %Y" }})</span></li>
+                <li><a href="{{ item.url }}">{{ item.title }}</a> <span class="text-muted">(Posted: {{ item.date | date: "%B %-d, %Y" }})</span></li>
                 {% endfor %}
             </ul>
         </div>
