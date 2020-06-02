@@ -54,13 +54,25 @@ layout: wrapper
         </div>
     </div>
 </div>
+{% comment %}
+    Assign all of the related content here.
+{% endcomment %}
+{% assign training = site.training | sort: 'date' | reverse | where: 'author', page.author %}
+{% assign coaching = site.coaching | sort: 'date' | reverse | where: 'author', page.author %}
+{% assign consulting = site.consulting | sort: 'date' | reverse | where: 'author', page.author %}
+{% assign help = site.help | sort: 'date' | reverse | where: 'author', page.author %}
+{% assign filtered_posts = site.posts | where: 'author', page.author %}
+{% comment %}
+    Next check for related content and only add container if there is something to put in it.
+{% endcomment %}
+{% if training != empty or coaching != empty or consulting != empty or help != empty or filtered_posts != empty %}
 <div class="container">
     <div class="row">
         <div class="col-md-12">
+            {% if training != empty %}
             <h2>Training</h2>
             <div class="card-deck">
-                {% assign sorted = site.training | sort: 'date' | reverse | where: 'author', page.author %}
-                {% for item in sorted %}
+                {% for item in training %}
                 <div class="card">
                     <div class="card-body icon">
                         <a href="{{ item.url }}"><i class="fas fa-certificate"></i></a>
@@ -74,10 +86,11 @@ layout: wrapper
                 </div>
                 {% endfor %}
             </div>
+            {% endif %}
+            {% if coaching != empty %}
             <h2>Coaching</h2>
             <div class="card-deck">
-                {% assign sorted = site.coaching | sort: 'date' | reverse | where: 'author', page.author %}
-                {% for item in sorted %}
+                {% for item in coaching %}
                 <div class="card">
                     <div class="card-body icon">
                         <a href="{{ item.url }}"><i class="fas fa-shapes"></i></a>
@@ -91,10 +104,11 @@ layout: wrapper
                 </div>
                 {% endfor %}
             </div>
+            {% endif %}
+            {% if consulting != empty %}
             <h2>Consulting</h2>
             <div class="card-deck">
-                {% assign sorted = site.consulting | sort: 'date' | reverse | where: 'author', page.author %}
-                {% for item in sorted %}
+                {% for item in consulting %}
                 <div class="card">
                     <div class="card-body icon">
                         <a href="{{ item.url }}"><i class="fas fa-lightbulb"></i></a>
@@ -108,18 +122,22 @@ layout: wrapper
                 </div>
                 {% endfor %}
             </div>
+            {% endif %}
+            {% if help != empty %}
             <h2>Help</h2>
-            {% assign sorted = site.help | sort: 'date' | reverse | where: 'author', page.author %}
-            {% for item in sorted %}
+            {% for item in help %}
             <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
             <p class="text-muted">Posted: {{ item.date | date: "%B %-d, %Y, %r %Z" }}</p>
             {% endfor %}
+            {% endif %}
+            {% if filtered_posts != empty %}
             <h2>Posts</h2>
-            {% assign filtered_posts = site.posts | where: 'author', page.author %}
             {% for post in filtered_posts %}
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             <p class="text-muted">{{ post.date | date: "%B %-d, %Y" }}</p>
             {% endfor %}
+            {% endif %}
         </div>
     </div>
 </div>
+{% endif %}
