@@ -7,7 +7,6 @@ twitter: joduinn
 linkedin: https://www.linkedin.com/in/joduinn/
 github: joduinn
 url: xyz
-bio: 
 bio_short: Author, <em>Distributed Teams - The Art and Practice of Working Together While Physically Apart</em>
 image: john-oduinn.jpg
 

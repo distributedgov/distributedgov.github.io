@@ -7,7 +7,6 @@ twitter:
 linkedin: https://www.linkedin.com/in/gracemckinney/
 github: 
 url: /people/gracemckinney
-bio: 
 bio_short: Hiring manager focused on diversity and impact for distributed teams
 image: grace-mckinney.png
 

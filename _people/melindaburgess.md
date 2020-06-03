@@ -7,7 +7,6 @@ twitter:
 linkedin: https://www.linkedin.com/in/melinda-burgess-03250286/
 github: melindaburgess
 url: /people/melindaburgess
-bio: 
 bio_short: Strategist, writer, and distributed teams operations specialist
 image: melinda-burgess.jpg
 
