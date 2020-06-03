@@ -9,24 +9,18 @@ layout: wrapper
             </div>
             <div class="col-md-10">
                 <h1 class="display-4">{{ page.name }}</h1>
-                {% if page.author %}
-                {% assign author = site.data.people[page.author] %}
-                <p class="lead">{{ author.bio_short }}</p>
-                {% endif %}
-                {% if page.author %}
-                {% assign author = site.data.people[page.author] %}
+                <p class="lead">{{ page.bio_short }}</p>
                 <p class="people-social">
-                    {% if author.linkedin %}
-                    <a href="{{ author.linkedin }}"><i class="fab fa-linkedin"></i></a>
+                    {% if page.linkedin %}
+                    <a href="{{ page.linkedin }}"><i class="fab fa-linkedin"></i></a>
                     {% endif %}
-                    {% if author.github %}
-                    <a href="https://github.com/{{ author.github }}"><i class="fab fa-github"></i></a>
+                    {% if page.github %}
+                    <a href="https://github.com/{{ page.github }}"><i class="fab fa-github"></i></a>
                     {% endif %}
-                    {% if author.twitter %}
-                    <a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-twitter"></i></a>
+                    {% if page.twitter %}
+                    <a href="https://twitter.com/{{ page.twitter }}"><i class="fab fa-twitter"></i></a>
                     {% endif %}
                 </p>
-                {% endif %}
             </div>
         </div>
     </div>
@@ -42,9 +36,9 @@ layout: wrapper
                 {% endfor %}
             </ul>
 -->
-            {% if author.bio %}
+            {% if content.size > 1 %}
             <h2>About</h2>
-            {{ author.bio | markdownify }}
+            {{ content | markdownify }}
             {% endif %}
         </div>
         <div class="col-md-4">
