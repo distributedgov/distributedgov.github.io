@@ -14,8 +14,12 @@ excerpt: Remote / telework support.
             </h2>
             <p class="text-muted">Posted: {{ item.date | date: "%B, %-d %Y" }} &middot;
                 {% if item.author %}
-                {% assign author = site.data.people[item.author] %}
-                <a href="{{ author.url }}">{{ author.name }}</a>
+                {% comment %}Loop through all of the authors of the page.{% endcomment %}
+                {% for author in item.author %}
+                {% comment %}"where" creates an array, so using "first" we can pop the first item off of the array of 1.{% endcomment %}
+                {% assign author_data = site.people | where:"author", author | first %}
+                {% if forloop.index0 != 0%}& {% endif %}<a href="{{ author_data.url }}">{{ author_data.name }}</a>
+                {% endfor %}
                 {% endif %}
                 <p>
                     {{ item.description }}
