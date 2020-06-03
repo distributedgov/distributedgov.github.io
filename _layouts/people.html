@@ -5,10 +5,7 @@ layout: wrapper
     <div class="container">
         <div class="row">
             <div class="col-md-2 people-img">
-                {% if page.author %}
-                {% assign author = site.data.people[page.author] %}
-                <img src="{{ site.url }}/img/people/{{ author.image }}" alt="{{ author.name }}" title="{{ author.name }}">
-                {% endif %}
+                <img src="{{ site.url }}/img/people/{{ page.image }}" alt="{{ page.name }}" title="{{ page.name }}">
             </div>
             <div class="col-md-10">
                 <h1 class="display-4">{{ page.name }}</h1>
