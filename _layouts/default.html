@@ -18,10 +18,14 @@ layout: default
                     <p class="lead">{{ page.excerpt }}</p>
                     {% endif %}
                     {% if page.author %}
-                    {% assign author = site.data.people[page.author] %}
+                    {% comment %}Loop through all of the authors of the page.{% endcomment %}
+                    {% for author in page.author %}
+                    {% comment %}"where" creates an array, so using "first" we can pop the first item off of the array of 1.{% endcomment %}
+                    {% assign author_data = site.people | where:"author", author | first %}
                     <div class="people people-jumbotron">
-                        <a href="{{ author.url }}"><img src="{{ site.url }}/img/people/{{ author.image }}" alt="{{ author.name }}" title="{{ author.name }}"></a> <a href="{{ author.url }}">{{ author.name }}</a>, {{ author.bio_short }}
+                        <a href="{{ author_data.url }}"><img src="{{ site.url }}/img/people/{{ author_data.image }}" alt="{{ author_data.name }}" title="{{ author_data.name }}"></a> <a href="{{ author_data.url }}">{{ author_data.name }}</a>, {{ author_data.bio_short }}
                     </div>
+                    {% endfor %}
                     {% endif %}
                     {% if page.form %}
                     <div class="request">
