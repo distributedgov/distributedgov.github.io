@@ -35,4 +35,8 @@ format:
   - Four 90-minute virtual sessions, over a 4-week period
   - Participants complete an online Humanware assessment and receive a personalized report
   - Delivery includes presentation of advanced human dynamics frameworks, and coaching support on implementation.
+followup:
+  - 
+  - 
+prerequisites: 
 ---

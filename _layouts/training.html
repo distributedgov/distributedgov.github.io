@@ -4,8 +4,14 @@ layout: default
 <div class="container section">
     <div class="row">
         <div class="col-md-8">
+            {% if page.service_about %}
             <h2>About this {{ page.service | downcase }}</h2>
             <p>{{ page.service_about }}</p>
+            {% endif %}
+            {% if page.prerequisites %}
+            <h2>Prerequisites</h2>
+            <p>{{ page.prerequisites }}</p>
+            {% endif %}
             <h2>Who it's for</h2>
             <ul>
                 {% for item in page.who %}
@@ -18,12 +24,22 @@ layout: default
                 <li><span class="fa-li"><i class="fas fa-check"></i></span> {{ item }}</li>
                 {% endfor %}
             </ul>
+            {% if page.format %}
             <h2>Format</h2>
             <ul>
                 {% for item in page.format %}
                 <li>{{ item }}</li>
                 {% endfor %}
             </ul>
+            {% endif %}
+            {% if page.followup %}
+            <h2>Follow-up</h2>
+            <ul>
+                {% for item in page.followup %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
             {% if page.cost %}
             <h2>Cost</h2>
             <p>{{ page.cost }}</p>

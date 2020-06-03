@@ -34,4 +34,8 @@ format:
   - Four 90-minute virtual sessions, over a 4-week period
   - Includes hands-on exercises to practice concepts and techniques
   - Interactive training, including role playing
+followup:
+  - 
+  - 
+prerequisites: 
 ---
