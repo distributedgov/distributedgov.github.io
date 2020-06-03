@@ -24,22 +24,26 @@ layout: wrapper
     <div class="row">
         <div class="col-md-2">
             {% if page.author %}
-            {% assign author = site.data.people[page.author] %}
+            {% comment %}Loop through all of the authors of the page.{% endcomment %}
+            {% for author in page.author %}
+            {% comment %}"where" creates an array, so using "first" we can pop the first item off of the array of 1.{% endcomment %}
+            {% assign author_data = site.people | where:"author", author | first %}
             <div class="people">
-                <a href="{{ author.url }}"><img src="{{ site.url }}/img/people/{{ author.image }}" alt="{{ author.name }}" title="{{ author.name }}"></a>
-                <p class="text-muted byline"><a href="{{ author.url }}"> {{ author.name }}</a></p>
+                <a href="{{ author_data.url }}"><img src="{{ site.url }}/img/people/{{ author_data.image }}" alt="{{ author_data.name }}" title="{{ author_data.name }}"></a>
+                <p class="text-muted byline"><a href="{{ author_data.url }}"> {{ author_data.name }}</a></p>
             </div>
             <p class="people-social">
-                {% if author.linkedin %}
-                <a href="{{ author.linkedin }}"><i class="fab fa-linkedin"></i></a>
+                {% if author_data.linkedin %}
+                <a href="{{ author_data.linkedin }}"><i class="fab fa-linkedin"></i></a>
                 {% endif %}
-                {% if author.github %}
-                <a href="https://github.com/{{ author.github }}"><i class="fab fa-github"></i></a>
+                {% if author_data.github %}
+                <a href="https://github.com/{{ author_data.github }}"><i class="fab fa-github"></i></a>
                 {% endif %}
-                {% if author.twitter %}
-                <a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-twitter"></i></a>
+                {% if author_data.twitter %}
+                <a href="https://twitter.com/{{ author_data.twitter }}"><i class="fab fa-twitter"></i></a>
                 {% endif %}
             </p>
+            {% endfor %}
             {% endif %}
         </div>
         <div class="col-md-10">
