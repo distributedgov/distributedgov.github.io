@@ -5,7 +5,7 @@ description: Given all the newly-working-from-home zoom users out there, and the
 excerpt: 
 date: 2020-05-19 20:34:01 -0700
 question: What is Zoom bombing?
-categories: [Communications, Managing, Meetings, Security]
+categories: [Telework, Security, Communications, Managing, Meetings, Project management, Technology, Policy, Culture, Hiring]
 tags: Zoom
 author: johnoduinn
 permalink: 

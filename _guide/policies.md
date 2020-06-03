@@ -3,7 +3,7 @@ layout: guide
 title: Policies
 description: Official U.S. federal and state government remote/telework policies.
 excerpt: Official U.S. federal and state government remote/telework policies.
-categories: [Remote, Telework, Policy]
+categories: [Telework, Policy]
 
 ---
 

@@ -10,13 +10,16 @@ service_about: Government leaders hold various types of large scale meetings -- 
 cost: 
 form: /request
 categories:
-  -  Communications
   -  Telework
-  -  Video conferencing
   -  Security
-  -  Public engagement
+  -  Communications
+  -  Managing
   -  Meetings
-  -  Moderating
+  -  Project management
+  -  Technology
+  -  Policy
+  -  Culture
+  -  Hiring
 who:
   - Agency stakeholders who frequently run large in-house meetings (50 - 300+ people)
   - Communications teams who need to interact with external stakeholders and general public

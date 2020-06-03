@@ -10,7 +10,6 @@ service_about: Effective Distributed Teams in Government provides government tea
 cost: Varies according to arrangement
 form: /request
 categories:
-  -  Remote
   -  Telework
   -  Security
   -  Communications
@@ -19,6 +18,8 @@ categories:
   -  Project management
   -  Technology
   -  Policy
+  -  Culture
+  -  Hiring
 who:
   - Government team leaders
   - Government team members

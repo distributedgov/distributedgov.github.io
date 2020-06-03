@@ -10,12 +10,16 @@ service_about: Excellence and competency are not the only factors that contribut
 cost: $1,000 per participant
 form: /request
 categories:
+  -  Telework
+  -  Security
   -  Communications
-  -  Team dynamics
-  -  Human relations
-  -  Productivity
-  -  Conflict management
-  -  Collaboration
+  -  Managing
+  -  Meetings
+  -  Project management
+  -  Technology
+  -  Policy
+  -  Culture
+  -  Hiring
 who:
   - Departmental and project teams looking to accelerate their performance
   - Government team leaders
