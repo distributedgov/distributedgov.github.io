@@ -44,35 +44,41 @@ layout: default
 <div class="container people">
     <div class="row">
         <div class="col-md-12">
-            <h2>Coach</h2>
+            {% comment %}Check if author is an array and if it is more than one to decide if plural.{% endcomment %}
+            <h2>Coach{% if page.author.first and page.author.size > 1 %}es{% endif %}</h2>
         </div>
     </div>
+    {% comment %}Loop through all of the authors of the page.{% endcomment %}
+    {% for author in page.author %}
+    {% comment %}"where" creates an array, so using "first" we can pop the first item off of the array of 1.{% endcomment %}
+    {% assign author_data = site.people | where:"author", author | first %}
     <div class="row">
         <div class="col-md-2">
-            {% assign author = site.data.people[page.author] %}
             <div class="people bio">
-                <a href="{{ author.url }}"><img src="{{ site.url }}/img/people/{{ author.image }}" alt="{{ author.name }}" title="{{ author.name }}"></a>
+                <a href="{{ author_data.url }}"><img src="{{ site.url }}/img/people/{{ author_data.image }}" alt="{{ author_data.name }}" title="{{ author_data.name }}"></a>
                 <p class="people-social">
                     {% if author.linkedin %}
-                    <a href="{{ author.linkedin }}"><i class="fab fa-linkedin"></i></a>
+                    <a href="{{ author_data.linkedin }}"><i class="fab fa-linkedin"></i></a>
                     {% endif %}
-                    {% if author.github %}
-                    <a href="https://github.com/{{ author.github }}"><i class="fab fa-github"></i></a>
+                    {% if author_data.github %}
+                    <a href="https://github.com/{{ author_data.github }}"><i class="fab fa-github"></i></a>
                     {% endif %}
-                    {% if author.twitter %}
-                    <a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-twitter"></i></a>
+                    {% if author_data.twitter %}
+                    <a href="https://twitter.com/{{ author_data.twitter }}"><i class="fab fa-twitter"></i></a>
                     {% endif %}
                 </p>
             </div>
         </div>
         <div class="col-md-10">
-            <h3>{{ author.name }}</h3>
-            <p>{% if author.bio %}
-                {{ author.bio }}
+            <h3>{{ author_data.name }}</h3>
+            {% if author_data.content %}
+            <p>
+                {{ author_data.content }}
             </p>
             {% endif %}
         </div>
     </div>
+    {% endfor %}
 </div>
 </div>
 <div class="bg-dark">
