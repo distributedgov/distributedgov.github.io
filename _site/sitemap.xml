@@ -16,6 +16,9 @@
 <loc>http://localhost:4000/consulting/strategic-briefing-government-teleworking-at-scale/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/consulting/telework-policy-development/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/guide/communications/</loc>
 </url>
 <url>
@@ -81,6 +84,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/training/creating-high-performance-teams/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/training/effective-distributed-teams-in-government/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/training/effective-telework-in-distributed-government-teams/</loc>
