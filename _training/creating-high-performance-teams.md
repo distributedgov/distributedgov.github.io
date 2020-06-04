@@ -31,7 +31,5 @@ format:
   - Participants complete an online work-style assessment and receive a personalized report
   - Delivery includes presentation of advanced human dynamics frameworks and coaching support
 followup:
-  - 
-  - 
 prerequisites: 
 ---

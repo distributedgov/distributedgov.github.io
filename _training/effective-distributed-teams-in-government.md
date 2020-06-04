@@ -38,7 +38,5 @@ format:
   - Options for 1:1 personalized coaching
   - Options for telework policy development / improvement
 followup:
-  - 
-  - 
 prerequisites: 
 ---

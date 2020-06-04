@@ -15,8 +15,7 @@ categories:
   -  Managing
   -  Culture
 who:
-  - Government team leaders
-  - Government team members
+  - Anyone leading or managing a remote / teleworking government team
 what_you_learn:
   - Tools and processes to promote transparency and accountability
   - Strategies for recruiting, interviewing, and onboarding while teleworking

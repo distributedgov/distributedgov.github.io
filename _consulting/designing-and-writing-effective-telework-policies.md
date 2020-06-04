@@ -29,5 +29,6 @@ format:
   - Discovery to identify your goals and desired outcomes
   - One-on-one virtual consulting sessions
   - Four hours per week, for 12 weeks
-
+followup:
+prerequisites: 
 ---

@@ -33,4 +33,6 @@ format:
 followup:
   - Additional personalized coaching is available as needed to help you with implementation issues, logistics questions, and extended support.
 prerequisites: 
+followup:
+prerequisites: 
 ---
