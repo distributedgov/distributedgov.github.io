@@ -5,6 +5,7 @@ service: Coaching
 title: 
 description: 
 excerpt: 
+author: 
 service_about: 
 cost: 
 form: /request
@@ -30,5 +31,8 @@ format:
   - 
   - 
   - 
-
+followup:
+  - 
+  - 
+prerequisites: 
 ---

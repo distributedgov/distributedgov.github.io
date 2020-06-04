@@ -1,7 +1,7 @@
 ---
 
-layout: training
-service: Training
+layout: coaching
+service: Coaching
 title: Recruiting and Hiring While Teleworking
 description: Training to help government agencies recruit and hire effectively into teleworking teams
 excerpt: 
@@ -9,15 +9,14 @@ author:
   - gracemckinney
   - johnoduinn
 service_about: Recruiting and hiring while your team is teleworking can be challenging — but it’s also an opportunity to gain the benefits that distributed teams can bring to your agency. This training empowers agency staff to securely and effectively  interview and onboard new team members in virtual environments.
-time_to_complete: Approximately 4.5 hours
 cost: $20,000 for up to 20 participants
 form: /request
 categories:
-  -  Hiring
   -  Telework
-  -  Managing
   -  Communications
+  -  Managing
   -  Policy
+  -  Hiring
 who:
   - Human Resource personnel and other agency leaders responsible for recruiting and hiring
   - Hiring managers and other team members involved in evaluating candidates
