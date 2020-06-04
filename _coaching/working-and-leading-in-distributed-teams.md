@@ -1,6 +1,6 @@
 ---
 
-layout: coaching
+layout: service
 service: Coaching
 title: Working and Leading in Distributed Teams
 description: Personalized coaching to help implement strategies for effective distributed government teams

@@ -1,6 +1,6 @@
 ---
 
-layout: consulting
+layout: service
 service: Consulting
 title: Designing and Writing Effective Telework Policies
 description: Personalized consulting to help agencies update or create sustainable and effective telework policies

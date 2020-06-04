@@ -1,6 +1,6 @@
 ---
 
-layout: training
+layout: service
 service: Training
 title: Effective Telework in Distributed Government Teams
 description: This training provides government teams with strategies, tools, and best practices for working together effectively in a distributed (remote/telework) model.

@@ -1,6 +1,6 @@
 ---
 
-layout: coaching
+layout: service
 service: Coaching
 title: 
 description: 

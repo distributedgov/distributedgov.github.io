@@ -1,6 +1,6 @@
 ---
 
-layout: consulting
+layout: service
 service: Consulting
 title: 
 description: 

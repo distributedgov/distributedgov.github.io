@@ -1,6 +1,6 @@
 ---
 
-layout: coaching
+layout: service
 service: Coaching
 title: Hiring Remote Workers
 description: Coaching to help government teams establish policies and best practices for remote/telework.

@@ -1,6 +1,6 @@
 ---
 
-layout: training
+layout: service
 service: Training
 title: Creating High-Performance Teams
 description: Training to help government agencies improve communications and manage complex team dynamics for better performance

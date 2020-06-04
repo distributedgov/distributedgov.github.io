@@ -1,6 +1,6 @@
 ---
 
-layout: training
+layout: service
 service: Training
 title: Managing Teleworkers in Government
 description: This training provides government leaders with strategies, tools, and best practices for effectively leading in a distributed (remote/telework) model.

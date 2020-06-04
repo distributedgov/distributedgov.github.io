@@ -1,6 +1,6 @@
 ---
 
-layout: training
+layout: service
 service: Training
 title: 
 description: 

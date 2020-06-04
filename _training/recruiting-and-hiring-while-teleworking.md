@@ -1,6 +1,6 @@
 ---
 
-layout: training
+layout: service
 service: Training
 title: Recruiting and Hiring While Teleworking
 description: Training to help government agencies recruit and hire effectively into teleworking teams

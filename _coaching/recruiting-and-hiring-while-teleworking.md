@@ -1,6 +1,6 @@
 ---
 
-layout: coaching
+layout: service
 service: Coaching
 title: Recruiting and Hiring While Teleworking
 description: Training to help government agencies recruit and hire effectively into teleworking teams
