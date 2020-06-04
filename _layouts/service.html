@@ -65,6 +65,7 @@ layout: default
     <div class="row">
         <div class="col-md-12">
             {% assign plural = '' %}
+            {% comment %}Check if author is an array and if it is more than one to decide if plural.{% endcomment %}
             {% if page.author.first and page.author.size > 1 %}
                 {% if page.service == 'Coaching' %}
                     {% assign plural = 'es' %}
@@ -76,11 +77,10 @@ layout: default
             {% when 'Training' %}
             {% assign person_noun = 'Instructor' | append: plural %}
             {% when 'Consulting' %}
-            {% assign person_noun = 'Advisor' %}
+            {% assign person_noun = 'Advisor' | append: plural %}
             {% when 'Coaching' %}
-            {% assign person_noun = 'Coach' %}
+            {% assign person_noun = 'Coach' | append: plural %}
             {% endcase %}
-            {% comment %}Check if author is an array and if it is more than one to decide if plural.{% endcomment %}
             <h2>{{ person_noun }}</h2>
         </div>
     </div>
