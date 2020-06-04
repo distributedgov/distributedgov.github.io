@@ -13,8 +13,14 @@ docs:
 - title: Help
   url: /help/
   
+- title: Community
+  url: /community/
+
 - title: News
   url: /news/
 
 - title: Contact
   url: /contact/
+
+- title: Code of conduct
+  url: /conduct/

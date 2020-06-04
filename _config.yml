@@ -23,6 +23,8 @@ email: distributedgov@civicactions.com
 description: Helping public service teams build highly effective remote and telework environments.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://distributedgov.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+slack: https://distributedgov.herokuapp.com/
 github_username: distributedgov
 twitter_username: distributedgov
 powered_by: CivicActions
