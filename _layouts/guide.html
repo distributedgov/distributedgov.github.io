@@ -16,7 +16,7 @@ layout: wrapper
                 {% endfor %}
             </div>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 guide-txt">
             <h1 class="">{{ page.title }}</h1>
             <p class="lead">{{ page.description }}</p>
             {{ content }}
@@ -61,3 +61,4 @@ layout: wrapper
         </div>
     </div>
 </div>
+<script src="{{ base.url | prepend: site.url }}/js/guide-heading.js"></script>
