@@ -104,9 +104,6 @@
 <loc>http://localhost:4000/ask/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/categories/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/coaching/</loc>
 </url>
 <url>
@@ -128,10 +125,10 @@
 <loc>http://localhost:4000/help/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/news/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/news/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/people/</loc>
