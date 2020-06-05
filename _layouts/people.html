@@ -37,7 +37,7 @@ layout: wrapper
             </ul>
 -->
             {% if content.size > 1 %}
-            <h2>About</h2>
+            {% include heading-anchor.html heading="About" %}
             {{ content | markdownify }}
             {% endif %}
         </div>
@@ -61,7 +61,7 @@ layout: wrapper
     <div class="row">
         <div class="col-md-12">
             {% if training != empty %}
-            <h2>Training</h2>
+            {% include heading-anchor.html heading="Training" %}
             <div class="card-deck">
                 {% for item in training %}
                 <div class="card">
@@ -79,7 +79,7 @@ layout: wrapper
             </div>
             {% endif %}
             {% if coaching != empty %}
-            <h2>Coaching</h2>
+            {% include heading-anchor.html heading="Coaching" %}
             <div class="card-deck">
                 {% for item in coaching %}
                 <div class="card">
@@ -97,7 +97,7 @@ layout: wrapper
             </div>
             {% endif %}
             {% if consulting != empty %}
-            <h2>Consulting</h2>
+            {% include heading-anchor.html heading="Consulting" %}
             <div class="card-deck">
                 {% for item in consulting %}
                 <div class="card">
@@ -115,14 +115,14 @@ layout: wrapper
             </div>
             {% endif %}
             {% if help != empty %}
-            <h2>Help</h2>
+            {% include heading-anchor.html heading="Help" %}
             {% for item in help %}
             <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
             <p class="text-muted">Posted: {{ item.date | date: "%B %-d, %Y, %r %Z" }}</p>
             {% endfor %}
             {% endif %}
             {% if filtered_posts != empty %}
-            <h2>Posts</h2>
+            {% include heading-anchor.html heading="Posts" %}
             {% for post in filtered_posts %}
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             <p class="text-muted">{{ post.date | date: "%B %-d, %Y" }}</p>

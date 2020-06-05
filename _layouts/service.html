@@ -5,15 +5,16 @@ layout: default
     <div class="row">
         <div class="col-md-8">
             {% if page.service_about %}
-            <h2>About this {{ page.service | downcase }}</h2>
+            {% assign page-service= page.service | downcase %}
+            {% include heading-anchor.html heading=page-service prefix="About this " %}
             <p>{{ page.service_about }}</p>
             {% endif %}
             {% if page.prerequisites %}
-            <h2>Prerequisites</h2>
+            {% include heading-anchor.html heading="Prerequisites" %}
             <p>{{ page.prerequisites }}</p>
             {% endif %}
             {% if page.who %}
-            <h2>Who it's for</h2>
+            {% include heading-anchor.html heading="Who it's for" %}
             <ul>
                 {% for item in page.who %}
                 <li>{{ item }}</li>
@@ -21,7 +22,7 @@ layout: default
             </ul>
             {% endif %}
             {% if page.what_you_learn %}
-            <h2>What you learn</h2>
+            {% include heading-anchor.html heading="What you learn" %}
             <ul class="fa-ul">
                 {% for item in page.what_you_learn %}
                 <li><span class="fa-li"><i class="fas fa-check"></i></span> {{ item }}</li>
@@ -29,7 +30,7 @@ layout: default
             </ul>
             {% endif %}
             {% if page.format %}
-            <h2>Format</h2>
+            {% include heading-anchor.html heading="Format" %}
             <ul>
                 {% for item in page.format %}
                 <li>{{ item }}</li>
@@ -37,7 +38,7 @@ layout: default
             </ul>
             {% endif %}
             {% if page.followup %}
-            <h2>Follow-up</h2>
+            {% include heading-anchor.html heading="Follow-up" %}
             <ul>
                 {% for item in page.followup %}
                 <li>{{ item }}</li>
@@ -45,7 +46,7 @@ layout: default
             </ul>
             {% endif %}
             {% if page.cost %}
-            <h2>Cost</h2>
+            {% include heading-anchor.html heading="Cost" %}
             <p>{{ page.cost }}</p>
             {% endif %}
         </div>
@@ -81,7 +82,7 @@ layout: default
             {% when 'Coaching' %}
             {% assign person_noun = 'Coach' | append: plural %}
             {% endcase %}
-            <h2>{{ person_noun }}</h2>
+            {% include heading-anchor.html heading=person_noun %}
         </div>
     </div>
     {% comment %}Loop through all of the authors of the page.{% endcomment %}

@@ -34,6 +34,23 @@ h3 {
     font-size: 1.5rem;
 }
 
+/* Heading anchor links */
+h2 a.header-link,
+h3 a.header-link {
+    position: relative;
+    left: 0.25em;
+    opacity: 0;
+    font-size: 0.75em;
+    -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+    -moz-transition: opacity 0.2s ease-in-out 0.1s;
+    -o-transition: opacity 0.2s ease-in-out 0.1s;
+    transition: opacity 0.2s ease-in-out 0.1s;
+}
+h2:hover a.header-link,
+h3:hover a.header-link {
+    opacity: 1;
+}
+
 sup,
 sup a,
 sup a:visited,
