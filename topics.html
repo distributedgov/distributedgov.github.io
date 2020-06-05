@@ -37,7 +37,7 @@ title: Topics
                 {% comment %}Sort the pages alphabetically.{% endcomment %}
                 {% assign pages = coaching-pages | concat: consulting-pages | concat: training-pages | sort: 'title' %}
                 <div class="archive-group">
-                    <h2 id="{{ category | slugize }}">{{ category }}</h2>
+                    {% include heading-anchor.html heading=category %}
                     {% for page in pages %}
                     <article>
                         <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
