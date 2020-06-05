@@ -50,7 +50,7 @@ layout: wrapper
                 <ul class="nav nav-pills">
                     {% for category in categories %}
                     <li class="nav-item">
-                        <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{ category | capitalize }}</a></li>
+                        <a href="{{site.baseurl}}/topics/#{{category|slugize}}">{{ category | capitalize }}</a></li>
                     {% unless forloop.last %}&nbsp;{% endunless %}
                     {% endfor %}
                 </ul>
