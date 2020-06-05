@@ -2,7 +2,7 @@
 
 layout: service
 service: Coaching
-title: 
+title: Template
 description: 
 excerpt: 
 author: 

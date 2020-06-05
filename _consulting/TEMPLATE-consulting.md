@@ -2,7 +2,7 @@
 
 layout: service
 service: Consulting
-title: 
+title: Template
 description: 
 excerpt: 
 author: 

@@ -2,7 +2,7 @@
 
 layout: service
 service: Training
-title: 
+title: Template
 description: 
 excerpt: 
 author: 
