@@ -13,7 +13,7 @@ categories:
   - Communications
   - Telework
   - Security
-  - Team culture
+  - Culture
   - Meetings
   - Technology
 who:
