@@ -55,7 +55,7 @@ layout: default
                 <h2>Topics</h2>
                 <ul class="nav nav-pills">
                     {% for item in page.categories %}
-                    <li class="nav-item">{{ item }}</li>
+                    <li class="nav-item"><a href="{{ site.baseurl }}/topics/#{{ item | slugify }}">{{ item }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
