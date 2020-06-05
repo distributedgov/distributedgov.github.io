@@ -1,0 +1,53 @@
+---
+layout: default
+title: Topics
+---
+<div class="container">
+    {% comment %}Gather all of the categories in use from coaching, consulting, and training.{% endcomment %}
+    {% for page in site.coaching %}
+    {% if page.title != 'Template' %}
+    {% assign categories = categories | concat: page.categories %}
+    {% endif %}
+    {% endfor %}
+
+    {% for page in site.consulting %}
+    {% if page.title != 'Template' %}
+    {% assign categories = categories | concat: page.categories %}
+    {% endif %}
+    {% endfor %}
+
+    {% for page in site.training %}
+    {% if page.title != 'Template' %}
+    {% assign categories = categories | concat: page.categories %}
+    {% endif %}
+    {% endfor %}
+
+    {% comment %}Filter the categories down to unique values.{% endcomment %}
+    {% assign categories = categories | uniq %}
+
+    <div class="row">
+        <div class="col-md-12">
+            <div id="archives">
+                {% comment %}Loop through each category.{% endcomment %}
+                {% for category in categories %}
+                {% comment %}Gather the matching pages from coaching, consulting, and training.{% endcomment %}
+                {% assign coaching-pages = site.coaching | where: "categories", category %}
+                {% assign consulting-pages = site.consulting | where: "categories", category %}
+                {% assign training-pages = site.training | where: "categories", category %}
+                {% comment %}Sort the pages alphabetically.{% endcomment %}
+                {% assign pages = coaching-pages | concat: consulting-pages | concat: training-pages | sort: 'title' %}
+                <div class="archive-group">
+                    <h2 id="{{ category | slugize }}">{{ category }}</h2>
+                    {% for page in pages %}
+                    <article>
+                        <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                        <p class="text-muted">{{ page.service }}</p>
+                    </article>
+                    {% endfor %}
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+</div>
