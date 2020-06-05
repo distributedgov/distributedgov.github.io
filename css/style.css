@@ -35,8 +35,14 @@ h3 {
 }
 
 /* Heading anchor links */
-h2 a.header-link,
-h3 a.header-link {
+a.header-perm-link,
+a.header-perm-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 span.header-perm-link-icon,
+h3 span.header-perm-link-icon {
     position: relative;
     left: 0.25em;
     opacity: 0;
@@ -45,9 +51,10 @@ h3 a.header-link {
     -moz-transition: opacity 0.2s ease-in-out 0.1s;
     -o-transition: opacity 0.2s ease-in-out 0.1s;
     transition: opacity 0.2s ease-in-out 0.1s;
+    color: #db1b3b;
 }
-h2:hover a.header-link,
-h3:hover a.header-link {
+h2:hover span.header-perm-link-icon,
+h3:hover span.header-perm-link-icon {
     opacity: 1;
 }
 
