@@ -29,5 +29,5 @@ format:
 followup:
   - Get personalized coaching for extended support and implementation help
   - Equip your training department to deliver a customized version of this training
-prerequisites: This training builds on the knowledge gained from the training [Effective Telework in Distributed Government Teams.](effective-telework-in-distributed-government-teams.md)
+prerequisites: This training builds on the knowledge gained from the training ["Effective Telework in Distributed Government Teams".]({% link _training/effective-telework-in-distributed-government-teams.md %})
 ---
