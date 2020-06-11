@@ -15,7 +15,7 @@ layout: wrapper
         <div class="col-md-12">
             <h2>Question</h2>
             <p></p>
-            <p>{{ page.question }}</p>
+            {{ page.question | markdownify }}
             <p class="text-muted">(Posted: {{ page.date | date: "%B %-d, %Y, %r %Z"}})</p>
         </div>
     </div>

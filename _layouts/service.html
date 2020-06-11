@@ -7,17 +7,17 @@ layout: default
             {% if page.service_about %}
             {% assign page-service= page.service | downcase %}
             {% include heading-anchor.html heading=page-service prefix="About this " %}
-            <p>{{ page.service_about }}</p>
+            {{ page.service_about | markdownify }}
             {% endif %}
             {% if page.prerequisites %}
             {% include heading-anchor.html heading="Prerequisites" %}
-            <p>{{ page.prerequisites }}</p>
+            {{ page.prerequisites | markdownify }}
             {% endif %}
             {% if page.who %}
             {% include heading-anchor.html heading="Who it's for" %}
             <ul>
                 {% for item in page.who %}
-                <li>{{ item }}</li>
+                <li>{{ item | markdownify }}</li>
                 {% endfor %}
             </ul>
             {% endif %}
@@ -25,7 +25,7 @@ layout: default
             {% include heading-anchor.html heading="What you learn" %}
             <ul class="fa-ul">
                 {% for item in page.what_you_learn %}
-                <li><span class="fa-li"><i class="fas fa-check"></i></span> {{ item }}</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span> {{ item | markdownify }}</li>
                 {% endfor %}
             </ul>
             {% endif %}
@@ -33,7 +33,7 @@ layout: default
             {% include heading-anchor.html heading="Format" %}
             <ul>
                 {% for item in page.format %}
-                <li>{{ item }}</li>
+                <li>{{ item | markdownify }}</li>
                 {% endfor %}
             </ul>
             {% endif %}
@@ -41,13 +41,13 @@ layout: default
             {% include heading-anchor.html heading="Follow-up" %}
             <ul>
                 {% for item in page.followup %}
-                <li>{{ item }}</li>
+                <li>{{ item | markdownify }}</li>
                 {% endfor %}
             </ul>
             {% endif %}
             {% if page.cost %}
             {% include heading-anchor.html heading="Cost" %}
-            <p>{{ page.cost }}</p>
+            {{ page.cost | markdownify }}
             {% endif %}
         </div>
         <div class="col-md-4 details">
