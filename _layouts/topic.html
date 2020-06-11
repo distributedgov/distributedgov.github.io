@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% comment %}Gather the matching pages from coaching, consulting, and training.{% endcomment %}
+{% assign coaching-pages = site.coaching | where: "categories", page.title %}
+{% assign consulting-pages = site.consulting | where: "categories", page.title %}
+{% assign training-pages = site.training | where: "categories", page.title %}
+{% assign posts = site.posts | where: "categories", page.title %}
+{% comment %}Sort the pages alphabetically.{% endcomment %}
+{% assign pages = coaching-pages | concat: consulting-pages | concat: training-pages | concat: posts | sort: 'title' %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="archives">
+                {% for page in pages %}
+                <article>
+                    <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                    <p class="text-muted">{{ page.service }}{% if page.layout == "post" %}News - {{ page.date | date: "%B, %-d %Y"}}{% endif %}</p>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
