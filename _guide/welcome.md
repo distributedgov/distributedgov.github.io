@@ -3,7 +3,8 @@ layout: guide
 title: Welcome
 description: Welcome to the Distributed Government Guide, a community resource helping public service teams build highly effective remote and telework environments.
 excerpt: Welcome to the Distributed Government Guide, a community resource helping public service teams build highly effective remote and telework environments.
-categories: [Telework]
+categories:
+  - Telework
 
 ---
 

@@ -3,7 +3,11 @@ layout: guide
 title: Communications
 description: Communication strategies to help distributed teams work together effectively.
 excerpt: Communication strategies to help distributed teams work together effectively.
-categories: [Communications, Managing, Meetings, Project management]
+categories:
+  - Communications
+  - Managing
+  - Meetings
+  - Project management
 
 ---
 

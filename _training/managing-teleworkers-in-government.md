@@ -10,10 +10,10 @@ service_about: This training provides government leaders with strategies, tools,
 cost: $20,000 for up to 20 participants
 form: /request
 categories:
-  -  Telework
   -  Communications
-  -  Managing
   -  Culture
+  -  Managing
+  -  Telework
 who:
   - Anyone leading or managing a remote / teleworking government team
 what_you_learn:

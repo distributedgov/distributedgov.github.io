@@ -11,11 +11,11 @@ cost: $250 per participant, for up to 200 people (minimum 175 people per cohort)
 form: /request
 categories:
   - Communications
-  - Telework
-  - Security
   - Culture
   - Meetings
+  - Security
   - Technology
+  - Telework
 who:
   - Government team leaders
   - Government team members

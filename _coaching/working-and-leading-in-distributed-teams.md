@@ -10,16 +10,16 @@ service_about: This one-on-one coaching builds on previous training, and will he
 cost: Varies according to duration and complexity of engagement
 form: /request
 categories:
-  -  Telework
-  -  Security
   -  Communications
-  -  Managing
-  -  Meetings
-  -  Project management
-  -  Technology
-  -  Policy
   -  Culture
   -  Hiring
+  -  Managing
+  -  Meetings
+  -  Telework
+  -  Policy
+  -  Project management
+  -  Security
+  -  Technology
 who:
   - Anyone working in or leading a government team, seeking custom support with strategies and best practices for remote / telework
 what_you_learn:
