@@ -45,6 +45,8 @@ branch: master
 feed:
   path: news/atom.xml
 
+permalink: /:title/
+
 collections:
   training:
     output: true
