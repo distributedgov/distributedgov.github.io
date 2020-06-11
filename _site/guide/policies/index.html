@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://getbootstrap.com/examples/starter-template/ -->
+<html lang="en">
+
+<head>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Official U.S. federal and state government remote/telework policies.">
+    <meta name="author" content="DistributedGov">
+    <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="http://localhost:4000/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4000/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://localhost:4000/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:4000/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="http://localhost:4000/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="http://localhost:4000/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Social media post -->
+    <meta property="og:image" content="http://localhost:4000/img/avatar.png">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="630">
+    <meta property="og:title" content="Policies">
+    <meta property="og:description" content="Official U.S. federal and state government remote/telework policies.">
+    <meta property="og:url" content="http://localhost:4000">
+    <title>Policies - DistributedGov</title>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link href="http://localhost:4000/css/style.css" rel="stylesheet">
+    </script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="http://localhost:4000/">DistributedGov</a> <sup>powered by <a href="https://civicactions.com">CivicActions</a></sup>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-md-auto">
+                
+                <li class="nav-item "><a href="/services" class="nav-link">Services</a></li>
+                
+                <li class="nav-item "><a href="/people" class="nav-link">People</a></li>
+                
+                <li class="nav-item "><a href="/guide" class="nav-link">Guide</a></li>
+                
+                <li class="nav-item "><a href="/help" class="nav-link">Help</a></li>
+                
+                <li class="nav-item "><a href="/community" class="nav-link">Community</a></li>
+                
+                <li class="nav-item "><a href="/news" class="nav-link">News</a></li>
+                
+                <li class="nav-item "><a href="/search" class="nav-link"><i class="fas fa-search"></i></a></li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+<main>
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="http://localhost:4000/guide">Distributed Government Guide</a></li>
+        <!--<li class="breadcrumb-item active" aria-current="page">Policies</li>-->
+    </ol>
+</nav>
+<div class="container-fluid guide section">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="list-group">
+                
+                <a href="/guide/welcome" class="list-group-item list-group-item-action ">Welcome</a>
+                
+                <a href="/guide/why-distributed/" class="list-group-item list-group-item-action ">Why distributed</a>
+                
+                <a href="/guide/getting-started/" class="list-group-item list-group-item-action ">Getting started</a>
+                
+                <a href="/guide/security/" class="list-group-item list-group-item-action ">Security</a>
+                
+                <a href="/guide/communications/" class="list-group-item list-group-item-action ">Communications</a>
+                
+                <a href="/guide/managing/" class="list-group-item list-group-item-action ">Managing</a>
+                
+                <a href="/guide/meetings/" class="list-group-item list-group-item-action ">Meetings</a>
+                
+                <a href="/guide/project-management/" class="list-group-item list-group-item-action ">Project management</a>
+                
+                <a href="/guide/technology/" class="list-group-item list-group-item-action ">Technology</a>
+                
+                <a href="/guide/policies/" class="list-group-item list-group-item-action ">Policies</a>
+                
+            </div>
+        </div>
+        <div class="col-md-9 guide-txt">
+            <h1 class="">Policies</h1>
+            <p class="lead">Official U.S. federal and state government remote/telework policies.</p>
+            <h2 id="federal">Federal</h2>
+
+<ul>
+  <li><a href="https://telework.gov">Telework.gov</a>, which is led by <a href="https://www.opm.gov">Office of Personnel Management</a></li>
+</ul>
+
+<h2 id="states">States</h2>
+
+<ul>
+  <li>Alabama</li>
+  <li><a href="http://doa.alaska.gov/dop/fileadmin/Human_Resource_Services/pdf/TelecommutingPolicy.pdf">Alaska</a></li>
+  <li><a href="https://capitolrideshare.az.gov/sites/default/files/media/Telework_Workbook.pdf">Arizona</a></li>
+  <li>Arkansas</li>
+  <li><a href="https://www.calhr.ca.gov/employees/Pages/telework-policy.aspx">California</a></li>
+  <li><a href="https://www.colorado.gov/pacific/sites/default/files/Flexible%20Work%20Arrangements%20Introduction_2.pdf">Colorado</a></li>
+  <li><a href="https://portal.ct.gov/DAS/Statewide-HR/Telework-Program">Connecticut</a></li>
+  <li><a href="https://dhr.delaware.gov/personnel/policies/documents/telecomm-policy.pdf">Delaware</a></li>
+  <li><a href="https://www.dms.myflorida.com/workforce_operations/human_resource_management/for_state_personnel_system_hr_practitioners/employment_policies_and_programs/state_employee_telework_program">Florida</a></li>
+  <li><a href="https://opb.georgia.gov/document/publication/telework-policy-2005/download">Georgia</a></li>
+  <li>Hawaii</li>
+  <li>Idaho</li>
+  <li>Illinois</li>
+  <li>Indiana</li>
+  <li>Iowa</li>
+  <li><a href="https://admin.ks.gov/docs/default-source/ops/dofa-personnel/telework-policy.pdf?sfvrsn=afd8cbc7_6">Kansas</a></li>
+  <li><a href="https://transportation.ky.gov/Congestion-Toolbox/Pages/Work-at-Home-or-Satellite-Office.aspx">Kentucky</a></li>
+  <li><a href="https://www.doa.la.gov/ohr/policies/personnelpolicy89.pdf">Louisiana</a></li>
+  <li>Maine</li>
+  <li><a href="https://dbm.maryland.gov/employees/Documents/telework/Telework%20Policy.pdf">Maryland</a></li>
+  <li><a href="https://www.mass.gov/telework-for-commonwealth-employees">Massachusetts</a></li>
+  <li>Michigan</li>
+  <li><a href="https://mn.gov/mmb-stat/policies/1422-telework.pdf">Minnesota</a></li>
+  <li>Mississippi</li>
+  <li><a href="https://oa.mo.gov/sites/default/files/POLB-32.pdf">Missouri</a></li>
+  <li><a href="https://hr.mt.gov/Portals/78/newdocs/factsheets/Sample%20Agency%20Telework%20Policy.pdf">Montana</a></li>
+  <li><a href="https://das.nebraska.gov/personnel/classncomp/telecommuting_guidelines.pdf">Nebraska</a></li>
+  <li>Nevada</li>
+  <li><a href="https://das.nh.gov/hr/documents/Telework%20Manual%20NH.pdf">New Hampshire</a></li>
+  <li>New Jersey</li>
+  <li><a href="https://www.hsd.state.nm.us/uploads/FileLinks/a06602924f3c4a58836719345f6f8df3/Telework.pdf">New Mexico</a></li>
+  <li>New York</li>
+  <li><a href="https://oshr.nc.gov/policies-forms/employment-records/teleworking-program-policy">North Carolina</a></li>
+  <li><a href="https://www.nd.gov/omb/agency/state-government-human-resource-management/state-hr-policies-rules-and-laws/telecommuting">North Dakota</a></li>
+  <li><a href="https://das.ohio.gov/Portals/0/DASDivisions/EmployeeServices/pdf/200-14%20Teleworking%20Policy%20March%2013%202018.pdf">Ohio</a></li>
+  <li><a href="https://omes.ok.gov/sites/g/files/gmc316/f/TeleworkPolicy.pdf">Oklahoma</a></li>
+  <li><a href="https://www.oregon.gov/das/Policies/50-050-01.pdf">Oregon</a></li>
+  <li><a href="https://www.oa.pa.gov/Policies/md/Documents/505_33.pdf">Pennsylvania</a></li>
+  <li><a href="https://rigov-policies.s3.amazonaws.com/Teleworking_Policy.pdf">Rhode Island</a></li>
+  <li><a href="https://admin.sc.gov/sites/default/files/state_hr/Sample%20Telecommuting%20Policy.pdf">South Carolina</a></li>
+  <li>South Dakota</li>
+  <li><a href="https://www.tn.gov/content/dam/tn/tacir/documents/telecommuting.pdf">Tennessee</a></li>
+  <li><a href="https://pubext.dir.texas.gov/portal/internal/resources/DocumentLibrary/Technology%20Brief%20-%20Telework%20in%20Texas.pdf">Texas</a></li>
+  <li><a href="https://gomb.utah.gov/2018/11/15/state-of-utah-telework-initiative/">Utah</a></li>
+  <li><a href="https://humanresources.vermont.gov/labor-relations/labor-relations-policies/telework">Vermont</a></li>
+  <li><a href="https://www.dhrm.virginia.gov/hr-partners/telework">Virginia</a></li>
+  <li><a href="https://www.governor.wa.gov/sites/default/files/exe_order/eo_14-02.pdf">Washington</a></li>
+  <li><a href="http://www.state.wv.us/admin/personnel/emprel/policies/doa/Workhome.pdf">West Virginia</a></li>
+  <li><a href="https://doa.wi.gov/DEO/Telecommuting%20Guidelines.pdf">Wisconsin</a></li>
+  <li><a href="https://ai.wyo.gov/divisions/human-resources/consultative-services/hrd-policies-procedures">Wyoming</a></li>
+</ul>
+
+            <h2>Related</h2>
+            <ul>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="/guide/getting-started/">Getting started</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="/guide/technology/">Technology</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="/guide/welcome/">Welcome</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="/guide/why-distributed/">Why distributed government</a></li>
+                
+                
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Services</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-group">
+    
+    <div class="card">
+        <div class="card-body icon">
+            <a href="/training/" class="stretched-link"><i class="fas fa-certificate"></i></a>
+            <h3><a href="/training/">Training</a></h3>
+            <p>Get customizable training for small or large groups at your agency on remote / telework best practices.</p>
+            <a class="btn btn-primary" href="/training/" role="button">Training</a>
+        </div>
+        <div class="card-footer">
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-body icon">
+            <a href="/coaching/" class="stretched-link"><i class="fas fa-shapes"></i></a>
+            <h3><a href="/coaching/">Coaching</a></h3>
+            <p>Get personalized coaching and implementation help for building effective distributed government teams.</p>
+            <a class="btn btn-primary" href="/coaching/" role="button">Coaching</a>
+        </div>
+        <div class="card-footer">
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-body icon">
+            <a href="/consulting/" class="stretched-link"><i class="fas fa-lightbulb"></i></a>
+            <h3><a href="/consulting/">Consulting</a></h3>
+            <p>Get one-on-one consulting for orientation on telework policies and best practices, along with recommendations for your agency.</p>
+            <a class="btn btn-primary" href="/consulting/" role="button">Consulting</a>
+        </div>
+        <div class="card-footer">
+        </div>
+    </div>
+    
+</div>
+        </div>
+    </div>
+</div>
+<script src="http://localhost:4000/js/guide-heading.js"></script>
+
+</main>
+<footer>
+    <div class="container edit text-right">
+        <div class="row">
+            <div class="col-md-12">
+                <p><a href="https://github.com/distributedgov/distributedgov.github.io/edit/master/_guide/policies.md" class="btn btn-outline-secondary" role="button">Edit this page</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>About</h3>
+                        <ul>
+                            
+                            <li><a href="/services/">Services</a></li>
+                            
+                            <li><a href="/people/">People</a></li>
+                            
+                            <li><a href="/guide/">Guide</a></li>
+                            
+                            <li><a href="/help/">Help</a></li>
+                            
+                            <li><a href="/community/">Community</a></li>
+                            
+                            <li><a href="/news/">News</a></li>
+                            
+                            <li><a href="/contact/">Contact</a></li>
+                            
+                            <li><a href="/conduct/">Code of conduct</a></li>
+                            
+                        </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>Suggest</h3>
+                        <p>Have ideas or need other remote/telework services?</p>
+                        <br>
+                        <a class="btn btn-primary" href="/suggest" role="button">Suggest</a>
+                </div>
+                <div class="col-md-3">
+                    <h2>Connect</h2>
+                    <p>
+                        
+                        <a href="https://distributedgov.herokuapp.com/"><i class="fab fa-slack"></i></a>
+                        
+                        
+                        <a href="https://twitter.com/distributedgov"><i class="fab fa-twitter"></i></a>
+                        
+                        
+                        <a href="https://github.com/distributedgov"><i class="fab fa-github"></i></a>
+                        
+                        
+                        <a href="http://localhost:4000/news/atom.xml"><i class="fas fa-rss"></i></a>
+                        
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h2>License</h2>
+                    <p><a href="https://creativecommons.org/licenses/by-sa/4.0/)">Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-bottom">
+        <div class="share-box d-none d-sm-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-right">
+                Share this: &nbsp;
+                <a class="l" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/guide/policies/&title=&summary=&source=webjeda" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin fa"></i><span> linkedin</span></a>
+                <a class="t" href="https://twitter.com/intent/tweet?text=&url=http://localhost:4000/guide/policies/" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter fa"></i><span> twitter</span></a>
+                <a class="f" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/guide/policies/" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official fa"></i><span> facebook</span></a>
+                <a class="e" href="mailto:?subject=&amp;body=Check out this site http://localhost:4000/guide/policies/"><i class="fa fa-envelope fa"></i><span> email</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</footer>
+
+</body>
+
+</html>
