@@ -2,22 +2,22 @@ docs_list_title: nav
 docs:
 
 - title: Services
-  url: /services/
+  url: /services
 
 - title: People
-  url: /people/
+  url: /people
 
 - title: Guide
-  url: /guide/
+  url: /guide
 
 - title: Help
-  url: /help/
+  url: /help
 
 - title: Community
-  url: /community/
+  url: /community
 
 - title: News
-  url: /news/
+  url: /news
 
 - title: <i class="fas fa-search"></i>
-  url: /search/
+  url: /search
