@@ -13,8 +13,8 @@ cost: $1,000 per participant
 form: /request
 categories:
   -  Communications
-  -  Managing
   -  Culture
+  -  Managing
 who:
   - Departmental and project teams looking to accelerate their performance
   - Government team leaders

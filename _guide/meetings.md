@@ -3,7 +3,11 @@ layout: guide
 title: Meetings
 description: How to hold remote meetings that are effective and productive.
 excerpt: How to hold remote meetings that are effective and productive.
-categories: [Communications, Managing, Meetings, Project management]
+categories:
+  - Communications
+  - Managing
+  - Meetings
+  - Project management
 
 ---
 

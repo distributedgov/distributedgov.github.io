@@ -10,11 +10,11 @@ service_about: Developing telework policies that evolve with operational and tec
 cost: Estimated at $31,680. This is for a 12-week engagement, 4 hours per week at $660 per hour. To speed up this complex, custom process, we use common patterns and established best practices wherever applicable.
 form: /request
 categories:
+  -  Managing
+  -  Policy
+  -  Technology
   -  Telework
   -  Security
-  -  Managing
-  -  Technology
-  -  Policy
 who:
   - Government policy makers who want to create sustainable a foundation for successful remote / telework
 what_you_learn:

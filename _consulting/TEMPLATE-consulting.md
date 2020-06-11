@@ -10,16 +10,16 @@ service_about:
 cost: 
 form: /request
 categories:
-  -  Telework
-  -  Security
   -  Communications
-  -  Managing
-  -  Meetings
-  -  Project management
-  -  Technology
-  -  Policy
   -  Culture
   -  Hiring
+  -  Managing
+  -  Meetings
+  -  Policy
+  -  Project management
+  -  Security
+  -  Technology
+  -  Telework
 who:
   - Government team leaders
   - Government team members

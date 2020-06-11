@@ -3,7 +3,8 @@ layout: guide
 title: Why distributed government
 description: We’re at the point in the organizational and civic evolutionary cycle where distributed government teams will play a critical role in building highly-effective public service teams.
 excerpt: We’re at the point in the organizational and civic evolutionary cycle where distributed government teams will play a critical role in building highly-effective public service teams.
-categories: [Telework]
+categories:
+  -Telework
 
 ---
 

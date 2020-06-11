@@ -10,11 +10,11 @@ service_about: Government leaders hold various types of large scale meetings —
 cost: $20,000 for up to 20 participants
 form: /request
 categories:
-  -  Telework
-  -  Security
   -  Communications
   -  Meetings
+  -  Security
   -  Technology
+  -  Telework
 who:
   - Agency stakeholders who frequently run large in-house meetings (50 - 300+ people)
   - Communications teams who need to interact with external stakeholders and general public

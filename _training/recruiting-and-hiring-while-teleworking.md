@@ -12,11 +12,11 @@ service_about: Recruiting and hiring while your team is teleworking can be chall
 cost: $20,000 for up to 20 participants
 form: /request
 categories:
-  -  Telework
   -  Communications
+  -  Hiring
   -  Managing
   -  Policy
-  -  Hiring
+  -  Telework
 who:
   - Human Resource personnel and other agency leaders responsible for recruiting and hiring
   - Hiring managers and other team members involved in evaluating candidates
