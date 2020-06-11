@@ -50,25 +50,28 @@ permalink: /:title/
 collections:
   training:
     output: true
-    permalink: training/:title/
+    permalink: training/:title
   consulting:
     output: true
-    permalink: consulting/:title/
+    permalink: consulting/:title
   people:
     output: true
-    permalink: people/:title/
+    permalink: people/:title
   guide:
     output: true
-    permalink: guide/:title/
+    permalink: guide/:title
   coaching:
     output: true
-    permalink: coaching/:title/
+    permalink: coaching/:title
   help:
     output: true
-    permalink: help/:title/
+    permalink: help/:title
   pages:
     output: true
     permalink: :title
+  topics:
+    output: true
+    permalink: topics/:title
 
 defaults:
   - scope:
@@ -82,6 +85,12 @@ defaults:
     values:
       layout: "post"
       permalink: news/:title
+  - scope:
+      path: ""
+      type: "topics"
+    values:
+      layout: "topic"
+      type: "topic"
 
 paginate: 10
 paginate_path: "/news/page:num/"
