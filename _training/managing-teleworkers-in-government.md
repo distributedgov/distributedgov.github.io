@@ -27,7 +27,7 @@ format:
   - Includes hands-on exercises and “homework” to practice concepts and techniques
   - Q & A to address your agency’s specific concerns
 followup:
-  - Get personalized coaching for extended support and implementation help
+  - Get [personalized coaching for extended support and implementation help](/coaching/working-and-leading-in-distributed-teams.md)
   - Equip your training department to deliver a customized version of this training
 prerequisites: This training builds on the knowledge gained from the training ["Effective Telework in Distributed Government Teams".](/training/effective-telework-in-distributed-government-teams)
 ---
