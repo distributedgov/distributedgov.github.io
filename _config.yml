@@ -90,7 +90,6 @@ defaults:
       type: "topics"
     values:
       layout: "topic"
-      type: "topic"
 
 paginate: 10
 paginate_path: "/news/page:num/"

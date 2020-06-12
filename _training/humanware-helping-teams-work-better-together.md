@@ -2,7 +2,7 @@
 
 layout: service
 service: Training
-title: Humanware: Helping Teams Work Better Together
+title: "Humanware: Helping Teams Work Better Together"
 description: Training on human dynamics and work styles to improve team performance and resiliency
 excerpt: 
 author:

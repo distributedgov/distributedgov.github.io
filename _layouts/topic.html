@@ -6,19 +6,71 @@ layout: default
 {% assign consulting-pages = site.consulting | where: "categories", page.title %}
 {% assign training-pages = site.training | where: "categories", page.title %}
 {% assign posts = site.posts | where: "categories", page.title %}
-{% comment %}Sort the pages alphabetically.{% endcomment %}
-{% assign pages = coaching-pages | concat: consulting-pages | concat: training-pages | concat: posts | sort: 'title' %}
-
+{% assign help = site.help | where: "categories", page.title %}
+{% assign guide = site.guide | where: "categories", page.title %}
 <div class="container">
     <div class="row">
         <div class="col-md-12">
             <div id="archives">
-                {% for page in pages %}
+                {% if training-pages != empty %}
+                <h2>Training</h2>
+                {% for page in training-pages %}
                 <article>
                     <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
                     <p class="text-muted">{{ page.service }}{% if page.layout == "post" %}News - {{ page.date | date: "%B, %-d %Y"}}{% endif %}</p>
                 </article>
                 {% endfor %}
+                {% endif %}
+
+                {% if consulting-pages != empty %}
+                <h2>Consulting</h2>
+                {% for page in consulting-pages %}
+                <article>
+                    <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                    <p class="text-muted">{{ page.service }}{% if page.layout == "post" %}News - {{ page.date | date: "%B, %-d %Y"}}{% endif %}</p>
+                </article>
+                {% endfor %}
+                {% endif %}
+
+                {% if coaching-pages != empty %}
+                <h2>Coaching</h2>
+                {% for page in coaching-pages %}
+                <article>
+                    <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                    <p class="text-muted">{{ page.service }}{% if page.layout == "post" %}News - {{ page.date | date: "%B, %-d %Y"}}{% endif %}</p>
+                </article>
+                {% endfor %}
+                {% endif %}
+
+                {% if posts != empty %}
+                <h2>Guide</h2>
+                {% for page in guide %}
+                <article>
+                    <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                    <p class="text-muted">{{ page.service }}{% if page.layout == "post" %}News - {{ page.date | date: "%B, %-d %Y"}}{% endif %}</p>
+                </article>
+                {% endfor %}
+                {% endif %}
+
+                {% if posts != empty %}
+                <h2>Help</h2>
+                {% for page in help %}
+                <article>
+                    <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                    <p class="text-muted">{{ page.service }}{% if page.layout == "post" %}News - {{ page.date | date: "%B, %-d %Y"}}{% endif %}</p>
+                </article>
+                {% endfor %}
+                {% endif %}
+
+                {% if posts != empty %}
+                <h2>News</h2>
+                {% for page in posts %}
+                <article>
+                    <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                    <p class="text-muted">{{ page.service }}{% if page.layout == "post" %}News - {{ page.date | date: "%B, %-d %Y"}}{% endif %}</p>
+                </article>
+                {% endfor %}
+                {% endif %}
             </div>
         </div>
     </div>
