@@ -6,24 +6,22 @@ excerpt: Get customizable training for small or large groups at your agency on r
 ---
 <div class="container">
     <div class="row">
-        {% for training in site.training %}
-        <div class="col-md-4">
-            <div class="card-group">
+        <div class="col-md-12">
+            <div class="card-deck">
+                {% for training in site.training %}
                 <div class="card">
                     <div class="card-body icon">
                         <a href="{{ training.url }}"><i class="fas fa-certificate"></i></a>
-                        <h2>
+                        <h3>
                             <a href="{{ training.url }}" class="stretched-link">
                                 {{ training.title }}
                             </a>
-                        </h2>
+                        </h3>
                         <a class="btn btn-primary" href="{{ training.url }}" role="button">Learn more</a>
                     </div>
                 </div>
-                <div class="card-footer">
-                </div>
+                {% endfor %}
             </div>
         </div>
-    {% endfor %}
     </div>
 </div>

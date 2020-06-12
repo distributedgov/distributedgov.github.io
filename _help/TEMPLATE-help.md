@@ -5,8 +5,17 @@ description:
 excerpt: 
 date: 2020-00-00 00:00:00 -0700
 question: 
-categories: [Telework, Security, Communications, Managing, Meetings, Project management, Technology, Policy, Culture, Hiring]
-tags: 
+categories:
+  - Communications
+  - Culture
+  - Hiring
+  - Managing
+  - Meetings
+  - Project management
+  - Policy
+  - Security
+  - Technology
+  - Telework
 author: 
 permalink: 
 

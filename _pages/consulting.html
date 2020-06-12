@@ -6,24 +6,22 @@ excerpt: Get one-on-one consulting for orientation on telework policies and best
 ---
 <div class="container">
     <div class="row">
-        {% for consulting in site.consulting %}
-        <div class="col-md-4">
-            <div class="card-group">
+        <div class="col-md-12">
+            <div class="card-deck">
+                {% for consulting in site.consulting %}
                 <div class="card">
                     <div class="card-body icon">
-                        <a href="{{ consulting.url }}"><i class="fas fa-lightbulb"></i></a>
-                        <h2>
+                        <a href="{{ consulting.url }}"><i class="fas fa-certificate"></i></a>
+                        <h3>
                             <a href="{{ consulting.url }}" class="stretched-link">
                                 {{ consulting.title }}
                             </a>
-                        </h2>
-                        <a class="btn btn-primary" href="{{ training.url }}" role="button">Learn more</a>
+                        </h3>
+                        <a class="btn btn-primary" href="{{ consulting.url }}" role="button">Learn more</a>
                     </div>
                 </div>
-                <div class="card-footer">
-                </div>
+                {% endfor %}
             </div>
         </div>
-        {% endfor %}
     </div>
 </div>

@@ -11,67 +11,77 @@ layout: default
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <div id="archives">
-                {% if training-pages != empty %}
-                <h2>Training</h2>
+            {% if training-pages != empty %}
+            <h2>Training</h2>
+            <div class="card-deck">
                 {% for page in training-pages %}
-                <article>
-                    <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
-                    <p class="text-muted">{{ page.service }}{% if page.layout == "post" %}News - {{ page.date | date: "%B, %-d %Y"}}{% endif %}</p>
-                </article>
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas fa-certificate"></i></span></a>
+                            <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                            <a class="btn btn-primary" href="{{ page.url }}" role="button">Learn more</a>
+                        </div>
+                    </div>
                 {% endfor %}
-                {% endif %}
-
-                {% if consulting-pages != empty %}
-                <h2>Consulting</h2>
-                {% for page in consulting-pages %}
-                <article>
-                    <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
-                    <p class="text-muted">{{ page.service }}{% if page.layout == "post" %}News - {{ page.date | date: "%B, %-d %Y"}}{% endif %}</p>
-                </article>
-                {% endfor %}
-                {% endif %}
-
-                {% if coaching-pages != empty %}
-                <h2>Coaching</h2>
-                {% for page in coaching-pages %}
-                <article>
-                    <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
-                    <p class="text-muted">{{ page.service }}{% if page.layout == "post" %}News - {{ page.date | date: "%B, %-d %Y"}}{% endif %}</p>
-                </article>
-                {% endfor %}
-                {% endif %}
-
-                {% if posts != empty %}
-                <h2>Guide</h2>
-                {% for page in guide %}
-                <article>
-                    <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
-                    <p class="text-muted">{{ page.service }}{% if page.layout == "post" %}News - {{ page.date | date: "%B, %-d %Y"}}{% endif %}</p>
-                </article>
-                {% endfor %}
-                {% endif %}
-
-                {% if posts != empty %}
-                <h2>Help</h2>
-                {% for page in help %}
-                <article>
-                    <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
-                    <p class="text-muted">{{ page.service }}{% if page.layout == "post" %}News - {{ page.date | date: "%B, %-d %Y"}}{% endif %}</p>
-                </article>
-                {% endfor %}
-                {% endif %}
-
-                {% if posts != empty %}
-                <h2>News</h2>
-                {% for page in posts %}
-                <article>
-                    <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
-                    <p class="text-muted">{{ page.service }}{% if page.layout == "post" %}News - {{ page.date | date: "%B, %-d %Y"}}{% endif %}</p>
-                </article>
-                {% endfor %}
-                {% endif %}
             </div>
+            {% endif %}
+            {% if consulting-pages != empty %}
+            <h2>Consulting</h2>
+            <div class="card-deck">
+                {% for page in consulting-pages %}
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas fa-certificate"></i></span></a>
+                            <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                            <a class="btn btn-primary" href="{{ page.url }}" role="button">Learn more</a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% if coaching-pages != empty %}
+            <h2>Coaching</h2>
+            <div class="card-deck">
+                {% for page in coaching-pages %}
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas fa-certificate"></i></span></a>
+                            <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                            <a class="btn btn-primary" href="{{ page.url }}" role="button">Learn more</a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% if guide != empty %}
+            <h2>Guide</h2>
+            {% for page in guide %}
+            <article>
+                <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+            </article>
+            {% endfor %}
+            {% endif %}
+            {% if help != empty %}
+            <h2>Help</h2>
+            {% for page in help %}
+            {% assign author_data = site.people | where:"author", page.author | first %}
+            <article>
+                <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                <p class="text-muted">Posted: {{ page.date | date: "%B, %-d %Y"}} &middot; <a href="{{ author_data.url }}">{{ author_data.name }}</a></p>
+            </article>
+            {% endfor %}
+            {% endif %}
+            {% if posts != empty %}
+            <h2>News</h2>
+            {% for page in posts %}
+            {% assign author_data = site.people | where:"author", page.author | first %}
+            <article>
+                <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                <p class="text-muted">{{ page.date | date: "%B, %-d %Y"}} &middot; <a href="{{ author_data.url }}">{{ author_data.name }}</a></p>
+            </article>
+            {% endfor %}
+            {% endif %}
         </div>
     </div>
+</div>
 </div>

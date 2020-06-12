@@ -5,8 +5,8 @@ description:
 excerpt: 
 date: 2020-06-11 00:00:00 -0700
 question: What’s the difference between “teleworking” and “distributed”?
-categories: [Telework, Security, Communications, Managing, Meetings, Project management, Technology, Policy, Culture, Hiring]
-tags: 
+categories:
+  - Telework
 author: melindaburgess
 permalink: 
 

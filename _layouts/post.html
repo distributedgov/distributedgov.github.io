@@ -18,7 +18,6 @@ layout: wrapper
             {% for author in page.author %}
             {% comment %}"where" creates an array, so using "first" we can pop the first item off of the array of 1.{% endcomment %}
             {% assign author_data = site.people | where:"author", author | first %}
-
             <div class="people">
                 <a href="{{ author_data.url }}"><img src="{{ site.url }}/img/people/{{ author_data.image }}" alt="{{ author_data.name }}" title="{{ author_data.name }}"></a>
                 <p class="text-muted byline"><a href="{{ author_data.url }}"> {{ author_data.name }}</a></p>
@@ -36,7 +35,6 @@ layout: wrapper
             </p>
             {% endfor %}
             {% endif %}
-
             <div class="people">
                 <p class="text-muted byline">
                     {{ page.date | date: "%B %-d, %Y"}}</p>
