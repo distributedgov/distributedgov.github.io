@@ -28,14 +28,6 @@ layout: wrapper
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-            <!--
-            <h2>Expertise</h2>
-            <ul class="nav nav-pills">
-                {% for item in site.people %}
-                <li class="nav-item">{{ author.expertise }}</li>
-                {% endfor %}
-            </ul>
--->
             {% if content.size > 1 %}
             {% include heading-anchor.html heading="About" %}
             {{ content | markdownify }}
@@ -46,7 +38,7 @@ layout: wrapper
     </div>
 </div>
 {% comment %}
-    Assign all of the related content here.
+Assign all of the related content here.
 {% endcomment %}
 {% assign training = site.training | sort: 'date' | reverse | where: 'author', page.author %}
 {% assign coaching = site.coaching | sort: 'date' | reverse | where: 'author', page.author %}
@@ -54,7 +46,7 @@ layout: wrapper
 {% assign help = site.help | sort: 'date' | reverse | where: 'author', page.author %}
 {% assign filtered_posts = site.posts | where: 'author', page.author %}
 {% comment %}
-    Next check for related content and only add container if there is something to put in it.
+Next check for related content and only add container if there is something to put in it.
 {% endcomment %}
 {% if training != empty or coaching != empty or consulting != empty or help != empty or filtered_posts != empty %}
 <div class="container">
@@ -118,7 +110,7 @@ layout: wrapper
             {% include heading-anchor.html heading="Help" %}
             {% for item in help %}
             <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-            <p class="text-muted">Posted: {{ item.date | date: "%B %-d, %Y, %r %Z" }}</p>
+            <p class="text-muted">Posted: {{ item.date | date: "%B %-d, %Y" }}</p>
             {% endfor %}
             {% endif %}
             {% if filtered_posts != empty %}

@@ -2,7 +2,7 @@
 layout: page
 title: Community
 description: Join the DistributedGov community.
-excerpt: 
+excerpt: "Join the DistributedGov community."
 permalink: 
 
 ---

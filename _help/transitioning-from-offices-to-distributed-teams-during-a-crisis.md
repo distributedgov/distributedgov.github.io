@@ -5,8 +5,17 @@ description: 7 steps to facilitate your transition to remote / telework
 excerpt: 7 steps to facilitate your transition to remote / telework27
 date: 2020-05-27 08:00:00 -0700
 question: What are some things to keep in mind when transitioning my team to remote / telework?
-categories: [Telework, Security, Communications, Managing, Meetings, Project management, Technology, Policy, Culture, Hiring]
-tags: 
+categories:
+  - Communications
+  - Culture
+  - Hiring
+  - Managing
+  - Meetings
+  - Project management
+  - Policy
+  - Security
+  - Technology
+  - Telework
 author: johnoduinn
 permalink: 
 

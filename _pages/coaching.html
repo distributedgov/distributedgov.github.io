@@ -6,24 +6,22 @@ excerpt: Get personalized coaching and implementation help for building effectiv
 ---
 <div class="container">
     <div class="row">
-        {% for coaching in site.coaching %}
-        <div class="col-md-4">
-            <div class="card-group">
+        <div class="col-md-12">
+            <div class="card-deck">
+                {% for coaching in site.coaching %}
                 <div class="card">
                     <div class="card-body icon">
-                        <a href="{{ coaching.url }}"><i class="fas fa-shapes"></i></a>
-                        <h2>
+                        <a href="{{ coaching.url }}"><i class="fas fa-certificate"></i></a>
+                        <h3>
                             <a href="{{ coaching.url }}" class="stretched-link">
                                 {{ coaching.title }}
                             </a>
-                        </h2>
+                        </h3>
                         <a class="btn btn-primary" href="{{ coaching.url }}" role="button">Learn more</a>
                     </div>
                 </div>
-                <div class="card-footer">
-                </div>
+                {% endfor %}
             </div>
         </div>
-        {% endfor %}
     </div>
 </div>
