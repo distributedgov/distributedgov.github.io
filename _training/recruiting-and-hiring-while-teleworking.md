@@ -31,8 +31,6 @@ format:
   - Breakout exercises to practice concepts and techniques
   - Hands-on interactive training including role playing
 followup:
-  - Additional personalized coaching is available as needed to help you with implementation issues, logistics questions, and extended support.
-prerequisites: 
-followup:
+  - Additional [personalized coaching is available as needed to help you with implementation issues, logistics questions, and extended support](/coaching/hiring-remote-workers.md).
 prerequisites: 
 ---
