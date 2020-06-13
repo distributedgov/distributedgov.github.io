@@ -8,4 +8,3 @@ permalink: /contact/
 ---
 
 * Email: <distributedgov@civicactions.com>
-* Phone: [(510) 408-7510](tel:5104087510)
