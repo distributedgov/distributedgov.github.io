@@ -1,26 +1,29 @@
 docs_list_title: nav_about
 docs:
 
+- title: Topics
+  url: /topics
+
 - title: Services
-  url: /services/
+  url: /services
 
 - title: People
-  url: /people/
+  url: /people
 
 - title: Guide
-  url: /guide/
+  url: /guide
 
 - title: Help
-  url: /help/
+  url: /help
   
 - title: Community
-  url: /community/
+  url: /community
 
 - title: News
-  url: /news/
+  url: /news
 
 - title: Contact
-  url: /contact/
+  url: /contact
 
 - title: Code of conduct
-  url: /conduct/
+  url: /conduct
