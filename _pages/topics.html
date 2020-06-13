@@ -1,9 +1,29 @@
 ---
 layout: default
 title: Topics
-excerpt: " "
+description: "Telework topics."
+excerpt: ""
 ---
 <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Select a telework topic</h2>
+            <div class="card-deck">
+                {% for page in site.topics %}
+                {% if page.title != 'Template' %}
+                <div class="card">
+                    <div class="card-body">
+                        <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas {{ page.icon }}"></i></span></a>
+                        <h5 class="h5"><a href="{{ page.url }}">{{ page.title }}</a></h5>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div class="container">
     {% comment %}Gather all of the categories in use from coaching, consulting, and training.{% endcomment %}
     {% for page in site.coaching %}
     {% if page.title != 'Template' %}
@@ -56,3 +76,4 @@ excerpt: " "
         </div>
     </div>
 </div>
+ -->
