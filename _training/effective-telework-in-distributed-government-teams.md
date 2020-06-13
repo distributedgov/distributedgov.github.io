@@ -31,8 +31,8 @@ format:
   - Small group breakout sessions with hands-on exercises
   - Q & A to address your group’s specific concerns
 followup:
-  - Get personalized coaching for extended support and implementation help
-  - Get in-depth training for managers and team leaders
+  - Get [personalized coaching for extended support and implementation help](/coaching/working-and-leading-in-distributed-teams.md)
+  - Get [in-depth training for managers and team leaders](/training/managing-teleworkers-in-government.md)
   - Equip your training department to deliver a customized version of this training
 prerequisites: 
 ---
