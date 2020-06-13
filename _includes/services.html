@@ -6,7 +6,9 @@
             <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
             <p>{{ item.description }}</p>
             <p class="card-text">{{ author.bio_short }}</p>
-            <a class="btn btn-primary" href="{{ item.url }}" role="button">{{ item.title }}</a>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="{{ item.url }}" role="button">Browse {{ item.title | downcase }}</a>
         </div>
     </div>
     {% endfor %}

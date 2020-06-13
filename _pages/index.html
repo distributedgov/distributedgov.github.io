@@ -4,23 +4,26 @@ title: Distributed Government
 description: Helping public service teams build highly effective remote and telework environments.
 excerpt: Helping public service teams build highly effective remote and telework environments.
 jumbotron: home
+action: Browse services
 ---
-<div class="container section">
-    <div class="row">
-        <div class="col-md-12">
-            <h2>Topics</h2>
-            <p>Select a telework topic:</p>
-            <div class="card-deck">
-                {% for page in site.topics %}
-                {% if page.title != 'Template' %}
-                <div class="card">
-                    <div class="card-body">
-                        <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas {{ page.icon }}"></i></span></a>
-                        <h5 class="h5"><a href="{{ page.url }}">{{ page.title }}</a></h5>
+<div class=" bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Topics</h2>
+                <p>Select a telework topic:</p>
+                <div class="card-deck">
+                    {% for page in site.topics %}
+                    {% if page.title != 'Template' %}
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas {{ page.icon }}"></i></span></a>
+                            <h5 class="h5"><a href="{{ page.url }}">{{ page.title }}</a></h5>
+                        </div>
                     </div>
+                    {% endif %}
+                    {% endfor %}
                 </div>
-                {% endif %}
-                {% endfor %}
             </div>
         </div>
     </div>

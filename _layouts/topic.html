@@ -15,27 +15,15 @@ layout: default
             <h2>Training</h2>
             <div class="card-deck">
                 {% for page in training-pages %}
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas fa-certificate"></i></span></a>
-                            <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
-                            <a class="btn btn-primary" href="{{ page.url }}" role="button">Learn more</a>
-                        </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas fa-certificate"></i></span></a>
+                        <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
                     </div>
-                {% endfor %}
-            </div>
-            {% endif %}
-            {% if consulting-pages != empty %}
-            <h2>Consulting</h2>
-            <div class="card-deck">
-                {% for page in consulting-pages %}
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas fa-certificate"></i></span></a>
-                            <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
-                            <a class="btn btn-primary" href="{{ page.url }}" role="button">Learn more</a>
-                        </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="{{ page.url }}" role="button">Learn more</a>
                     </div>
+                </div>
                 {% endfor %}
             </div>
             {% endif %}
@@ -43,13 +31,31 @@ layout: default
             <h2>Coaching</h2>
             <div class="card-deck">
                 {% for page in coaching-pages %}
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas fa-certificate"></i></span></a>
-                            <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
-                            <a class="btn btn-primary" href="{{ page.url }}" role="button">Learn more</a>
-                        </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas fa-shapes"></i></span></a>
+                        <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
                     </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="{{ page.url }}" role="button">Learn more</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% if consulting-pages != empty %}
+            <h2>Consulting</h2>
+            <div class="card-deck">
+                {% for page in consulting-pages %}
+                <div class="card">
+                    <div class="card-body">
+                        <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas fa-certificate"></i></span></a>
+                        <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="{{ page.url }}" role="button">Learn more</a>
+                    </div>
+                </div>
                 {% endfor %}
             </div>
             {% endif %}
