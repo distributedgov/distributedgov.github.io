@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://getbootstrap.com/examples/starter-template/ -->
+<html lang="en">
+
+<head>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="DistributedGov">
+    <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="http://localhost:4000/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4000/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://localhost:4000/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:4000/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="http://localhost:4000/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="http://localhost:4000/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Social media post -->
+    <meta property="og:image" content="http://localhost:4000/img/avatar.png">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="630">
+    <meta property="og:title" content="Security">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="http://localhost:4000">
+    <title>Security - DistributedGov</title>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link href="http://localhost:4000/css/style.css" rel="stylesheet">
+    </script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="http://localhost:4000/">DistributedGov</a> <sup>powered by <a href="https://civicactions.com">CivicActions</a></sup>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-md-auto">
+                
+                <li class="nav-item "><a href="/topics" class="nav-link">Topics</a></li>
+                
+                <li class="nav-item "><a href="/services" class="nav-link">Services</a></li>
+                
+                <li class="nav-item "><a href="/people" class="nav-link">People</a></li>
+                
+                <li class="nav-item "><a href="/guide" class="nav-link">Guide</a></li>
+                
+                <li class="nav-item "><a href="/help" class="nav-link">Help</a></li>
+                
+                <li class="nav-item "><a href="/community" class="nav-link">Community</a></li>
+                
+                <li class="nav-item "><a href="/news" class="nav-link">News</a></li>
+                
+                <li class="nav-item "><a href="/search" class="nav-link"><i class="fas fa-search"></i></a></li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+<main>
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="http://localhost:4000/guide">Distributed Government Guide</a></li>
+    </ol>
+</nav>
+<div class="container-fluid guide section">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="list-group">
+                
+                <a href="/guide/welcome" class="list-group-item list-group-item-action ">Welcome</a>
+                
+                <a href="/guide/why-distributed" class="list-group-item list-group-item-action ">Why distributed</a>
+                
+                <a href="/guide/getting-started" class="list-group-item list-group-item-action ">Getting started</a>
+                
+                <a href="/guide/security" class="list-group-item list-group-item-action ">Security</a>
+                
+                <a href="/guide/communications" class="list-group-item list-group-item-action ">Communications</a>
+                
+                <a href="/guide/managing" class="list-group-item list-group-item-action ">Managing</a>
+                
+                <a href="/guide/meetings" class="list-group-item list-group-item-action ">Meetings</a>
+                
+                <a href="/guide/project-management" class="list-group-item list-group-item-action ">Project management</a>
+                
+                <a href="/guide/technology" class="list-group-item list-group-item-action ">Technology</a>
+                
+                <a href="/guide/policies" class="list-group-item list-group-item-action ">Policies</a>
+                
+            </div>
+        </div>
+        <div class="col-md-9 guide-txt">
+            <h1 class="">Security</h1>
+            <p class="lead"></p>
+            <h2 id="checklist-for-team-leaders">Checklist for team leaders</h2>
+
+<h3 id="establish-policies-and-processes">Establish policies and processes</h3>
+
+<ul>
+  <li>Review telework agreements and policies to ensure they comply with your agency’s information security policies.</li>
+  <li>Create a clear, written data handling policy that accounts for realities of working outside a physical office (e.g., working on the laptop in view of family members).</li>
+  <li>Enforce personal privacy requirements for records.</li>
+  <li>Keep all policies accessible in a place where everyone knows to look for them (like Confluence or other team collaboration tool).</li>
+  <li>Track removal and return of potentially sensitive materials, such as personnel records.</li>
+</ul>
+
+<h3 id="enforce-secure-login-practices">Enforce secure login practices</h3>
+
+<ul>
+  <li>Choose a <a href="https://www.digitaltrends.com/computing/best-password-managers/">password manager</a> and make sure teams adopt it for secure, unique passwords across all logins.</li>
+  <li>Enforce <a href="https://medium.com/@mshelton/two-factor-authentication-for-beginners-b29b0eec07d7">two-factor authentication</a> across agency systems and employee logins.</li>
+  <li>Provide training on use of password management and two-factor authentication (this can be a simple half-day workshop to onboard everyone to the tools and practice using them).</li>
+  <li>Explicitly forbid the use of passwords written on sticky notes or browser auto-fill passwords for agency system logins.</li>
+</ul>
+
+<h3 id="ensure-secure-systems-access-for-teams">Ensure secure systems access for teams</h3>
+
+<ul>
+  <li>Set up a Virtual Private Network (<a href="https://www.howtogeek.com/133680/htg-explains-what-is-a-vpn/">VPN</a>) for secure internet connection, and confirm that your employees can access it from their homes.</li>
+  <li>Make sure the right employees can securely login and access systems remotely (this can mean expanding access for some employees and limiting it for others).</li>
+  <li>Consider reimbursing employees if they need to use their mobile hotspot for remote systems access.</li>
+</ul>
+
+<h3 id="provide-security-training">Provide security training</h3>
+
+<ul>
+  <li>Information systems security training (can be provided by third-party vendor)</li>
+  <li>Workshops for setting up and using password manager and two-factor authentication</li>
+  <li>Training on recognizing and avoiding phishing attacks (here’s a <a href="https://phishingquiz.withgoogle.com/">simple quiz</a> you can use to test employee awareness)</li>
+</ul>
+
+<h2 id="checklist-for-teams">Checklist for teams</h2>
+
+<h3 id="beware-of-phishing--malware--hacking">Beware of phishing / malware / hacking</h3>
+
+<ul>
+  <li>Emails that ask you to confirm personal information</li>
+  <li>Email addresses or websites that don’t look genuine</li>
+  <li>High-intensity subject lines or messaging (i.e., “Urgent COVID Directive!”)</li>
+  <li>Don’t open attachments you don’t recognize</li>
+</ul>
+
+<h3 id="use-secure-login-practices">Use secure login practices</h3>
+
+<ul>
+  <li>Onboard to the password manager tool your team is using</li>
+  <li>Set an example to others if your team isn’t collectively using a password manager (and perhaps offer to lead a one-hour workshop to help colleagues get set up)</li>
+  <li>Avoid browser password autofill or writing passwords on sticky notes</li>
+</ul>
+
+<h3 id="protect-your-devices-and-hardware">Protect your devices and hardware</h3>
+
+<ul>
+  <li>Enable remote lock-out and re-set on your phone / laptop</li>
+  <li>Require password entry on power-up and login</li>
+  <li>Close laptop and remove CAC / PIV card when not in use</li>
+  <li>Encrypt hard disks (and wipe disks before giving away or discarding)</li>
+  <li>Never leave devices in the car or out of your sight</li>
+  <li>Lock your doors when you leave the house</li>
+  <li>Don’t use a thumb drive unless you know where it came from</li>
+</ul>
+
+<h3 id="practice-good-security-habits">Practice good security habits</h3>
+
+<ul>
+  <li>Comply with organizational policies and with any additional requirements spelled out in your telework agreement.</li>
+  <li>Use only your agency services and tools for email, file sharing, and other work activities – not your personal accounts.</li>
+  <li>Avoid unsecured WiFi in public places when working on sensitive information (mobile phone hotspot is also not entirely secure). Use agency <a href="https://www.howtogeek.com/133680/htg-explains-what-is-a-vpn/">VPN</a> for secure connection.</li>
+  <li>Keep software and systems up-to-date – the latest version will always have the best security fixes. This includes:
+    <ul>
+      <li>Cell phone operating system</li>
+      <li>Web browser</li>
+      <li>Laptop / computer operating system</li>
+      <li>Web tools and apps (video conferencing, etc.)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="tools">Tools</h2>
+
+<h3 id="password-management">Password management</h3>
+
+<ul>
+  <li><a href="https://www.lastpass.com/">LastPass</a></li>
+  <li><a href="https://1password.com">1Password</a></li>
+  <li><a href="https://www.passpack.com/">Passpack</a></li>
+</ul>
+
+<h3 id="two-factor-authentication">Two-factor authentication</h3>
+
+<ul>
+  <li><a href="https://lastpass.com/auth/">LastPass Authenticator</a></li>
+  <li><a href="https://authy.com/">Authy</a></li>
+  <li><a href="https://www.yubico.com">YubiKey</a></li>
+</ul>
+
+<h2 id="resources">Resources</h2>
+
+<h3 id="guidance">Guidance</h3>
+
+<ul>
+  <li><a href="https://www.telework.gov/guidance-legislation/telework-guidance/security-it/">Security &amp; IT</a> (U.S. Office of Personnel Management)</li>
+  <li><a href="https://www.nist.gov/blogs/cybersecurity-insights/telework-security-basics">Telework Security Basics</a> (NIST)</li>
+  <li><a href="https://www.us-cert.gov/ncas/alerts/aa20-073a">Enterprise VPN Security</a> (U.S. Department of Homeland Security)</li>
+  <li><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-46r2.pdf">Security for Enterprise Telework, Remote Access, and Bring Your Own Device (BYOD) Solutions</a> (NIST)</li>
+  <li><a href="https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-security/cyber-safety_for_mobile_workers.pdf">Cyber-Safety for Mobile Workers</a> (British Columbia Office of the Chief Information Officer)</li>
+  <li><a href="https://www.cisa.gov/sites/default/files/publications/CISA_Cybersecurity_Recommendations_for_Critical_Infrastructure_Using_Video_Conferencing_S508C.pdf">Cybersecurity Recommendations for critical infrastructure using videoconferencing</a> (CISA)</li>
+  <li><a href="https://www.cisa.gov/sites/default/files/publications/CISA_Guidance_for_Securing_Video_Conferencing_S508C.pdf">Guidance for securing videoconferencing</a> (CISA)</li>
+</ul>
+
+<h3 id="videos">Videos</h3>
+
+<ul>
+  <li><a href="https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/684682/uiconf_id/31013851/entry_id/1_h5ch34jx/embed/dynamic">Telework Security Basics from NIST</a></li>
+  <li><a href="https://www.youtube.com/watch?v=0mvCeNsTa1g">What is Two-Factor Authentication?</a> (Duo Security)</li>
+</ul>
+
+<h3 id="posts">Posts</h3>
+
+<ul>
+  <li><a href="https://www.nist.gov/itl/applied-cybersecurity/tig/back-basics-multi-factor-authentication">Back to basics: Multi-factor authentication (MFA)</a> (NIST)</li>
+  <li><a href="https://www.howtogeek.com/141500/why-you-should-use-a-password-manager-and-how-to-get-started/">Why you should use a password manager, and how to get started</a> (How To Geek)</li>
+  <li><a href="https://staysafeonline.org/blog/5-ways-spot-phishing-emails/">5 ways to spot a phishing email</a> (National Cybersecurity Alliance)</li>
+  <li><a href="https://media.defense.gov/2020/Apr/24/2002288652/-1/-1/0/CSI-SELECTING-AND-USING-COLLABORATION-SERVICES-SECURELY-LONG-FINAL.PDF">Selecting and Safely Using Collaboration Servicesfor Telework</a> (National Security Agency)</li>
+  <li><a href="https://oduinn.com/2020/04/04/zoom-security-fixes-and-zoom-bombing/">Zoom security fixes and Zoom bombing</a> (John O-Duinn)</li>
+</ul>
+
+            <h2>Related</h2>
+            <ul>
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="/guide/communications">Communications</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="/guide/managing">Managing</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="/guide/meetings">Meetings</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="/guide/project-management">Project management</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a href="/guide/technology">Technology</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Services</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-deck">
+    
+    <div class="card">
+        <div class="card-body icon">
+            <a href="/training" class="stretched-link"><i class="fas fa-certificate"></i></a>
+            <h3><a href="/training">Training</a></h3>
+            <p>Get customizable training for small or large groups at your agency on remote / telework best practices.</p>
+            <p class="card-text"></p>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="/training" role="button">Browse training</a>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-body icon">
+            <a href="/coaching" class="stretched-link"><i class="fas fa-shapes"></i></a>
+            <h3><a href="/coaching">Coaching</a></h3>
+            <p>Get personalized coaching and implementation help for building effective distributed government teams.</p>
+            <p class="card-text"></p>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="/coaching" role="button">Browse coaching</a>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-body icon">
+            <a href="/consulting" class="stretched-link"><i class="fas fa-lightbulb"></i></a>
+            <h3><a href="/consulting">Consulting</a></h3>
+            <p>Get one-on-one consulting for orientation on telework policies and best practices, along with recommendations for your agency.</p>
+            <p class="card-text"></p>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="/consulting" role="button">Browse consulting</a>
+        </div>
+    </div>
+    
+</div>
+        </div>
+    </div>
+</div>
+<script src="http://localhost:4000/js/guide-heading.js"></script>
+</main>
+<footer>
+    <div class="container edit text-right">
+        <div class="row">
+            <div class="col-md-12">
+                <p><a href="https://github.com/distributedgov/distributedgov.github.io/edit/master/_guide/security.md" class="btn btn-outline-secondary" role="button">Edit this page</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>About</h3>
+                        <ul>
+                            
+                            <li><a href="/topics">Topics</a></li>
+                            
+                            <li><a href="/services">Services</a></li>
+                            
+                            <li><a href="/people">People</a></li>
+                            
+                            <li><a href="/guide">Guide</a></li>
+                            
+                            <li><a href="/help">Help</a></li>
+                            
+                            <li><a href="/community">Community</a></li>
+                            
+                            <li><a href="/news">News</a></li>
+                            
+                            <li><a href="/contact">Contact</a></li>
+                            
+                            <li><a href="/conduct">Code of conduct</a></li>
+                            
+                        </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>Contact</h3>
+                        <p>Have questions or need other remote/telework services?</p>
+                        <br>
+                        <a class="btn btn-primary" href="/contact" role="button">Contact us</a>
+                </div>
+                <div class="col-md-3">
+                    <h2>Connect</h2>
+                    <p>
+                        
+                        <a href="https://distributedgov.herokuapp.com/"><i class="fab fa-slack"></i></a>
+                        
+                        
+                        <a href="https://twitter.com/distributedgov"><i class="fab fa-twitter"></i></a>
+                        
+                        
+                        <a href="https://github.com/distributedgov"><i class="fab fa-github"></i></a>
+                        
+                        
+                        <a href="http://localhost:4000/news/atom.xml"><i class="fas fa-rss"></i></a>
+                        
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h2>License</h2>
+                    <p><a href="https://creativecommons.org/licenses/by-sa/4.0/)">Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-bottom">
+        <div class="share-box d-none d-sm-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-right">
+                Share this: &nbsp;
+                <a class="l" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/guide/security&title=&summary=&source=webjeda" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin fa"></i><span> linkedin</span></a>
+                <a class="t" href="https://twitter.com/intent/tweet?text=&url=http://localhost:4000/guide/security" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter fa"></i><span> twitter</span></a>
+                <a class="f" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/guide/security" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official fa"></i><span> facebook</span></a>
+                <a class="e" href="mailto:?subject=&amp;body=Check out this site http://localhost:4000/guide/security"><i class="fa fa-envelope fa"></i><span> email</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</footer>
+
+</body>
+
+</html>
