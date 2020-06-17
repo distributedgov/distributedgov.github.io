@@ -8,7 +8,8 @@ excerpt:
 author: johnoduinn
 service_about: This webinar will introduce high-level strategies and practical tips to help government teams work effectively together while physically apart. Presented by John O’Duinn, author of “Distributed Teams.”
 cost: FREE 
-form: /request
+form: https://civicactions.zoom.us/meeting/register/tJ0tc-2rqDwoE9MmquuSu426qAyDK90f3zn5
+form_text: Register
 categories:
   -  Communications
   -  Culture
