@@ -27,9 +27,8 @@ format:
   - Includes hands-on exercises and “homework” to practice concepts and techniques
   - Q & A to address your agency’s specific concerns
 followup:
-  - Coaching support: [Working and Leading in Distributed Teams](/coaching/working-and-leading-in-distributed-teams)
-  - Train your trainers: [Designing and Running Telework Training Courses](/consulting/designing-and-running-telework-training-courses)
-  - Equip your training department to deliver a customized version of this training
+  - Coaching support - [Working and Leading in Distributed Teams](/coaching/working-and-leading-in-distributed-teams)
+  - Train your trainers - [Designing and Running Telework Training Courses](/consulting/designing-and-running-telework-training-courses)
 prerequisites:
   - [Effective Telework in Distributed Government Teams](/training/effective-telework-in-distributed-government-teams)
 ---
