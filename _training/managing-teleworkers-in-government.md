@@ -26,10 +26,10 @@ format:
   - Four 90-minute virtual sessions, over a 4-week period
   - Includes hands-on exercises and “homework” to practice concepts and techniques
   - Q & A to address your agency’s specific concerns
-followup: We recommend these additional services for extended support and implemetation help:
-  - [Working and Leading in Distributed Teams](/coaching/working-and-leading-in-distributed-teams)
-  - [Designing and Running Telework Training Courses](/consulting/designing-and-running-telework-training-courses)
+followup:
+  - Coaching support: [Working and Leading in Distributed Teams](/coaching/working-and-leading-in-distributed-teams)
+  - Train your trainers: [Designing and Running Telework Training Courses](/consulting/designing-and-running-telework-training-courses)
   - Equip your training department to deliver a customized version of this training
-prerequisites: This training builds on the knowledge gained from previous training:
+prerequisites:
   - [Effective Telework in Distributed Government Teams](/training/effective-telework-in-distributed-government-teams)
 ---
