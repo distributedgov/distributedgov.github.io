@@ -31,6 +31,6 @@ format:
   - Breakout exercises to practice concepts and techniques
   - Hands-on interactive training including role playing
 followup:
-  - Coaching support: [Recruiting and Hiring in Distributed Government Teams](/coaching/recruiting-and-hiring-for-distributed-government-teams)
+  - Coaching support - [Recruiting and Hiring in Distributed Government Teams](/coaching/recruiting-and-hiring-for-distributed-government-teams)
 prerequisites: 
 ---
