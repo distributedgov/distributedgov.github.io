@@ -2,11 +2,11 @@
   
     {
 
-      "title"    : "Welcome to DistributedGov",
-      "url"      : "/news/welcome-to-distributedgov",
+      "title"    : "DistributedGov launches to help public service teams build highly effective remote and telework environments",
+      "url"      : "/news/distributedgov-launches",
       "category" : "",
       "tags"     : "",
-      "date"     : "2020-05-15 20:34:01 -0700"
+      "date"     : "2020-06-17 08:58:01 -0700"
 
     },
   
@@ -74,6 +74,16 @@
   
   {
 
+    "title"    : "Always Getting Better: Building Organizations of Purpose That Get Things Done",
+    "url"      : "/training/building-organizations-of-purpose",
+    "category" : "",
+    "service"  : "Training",
+    "content"  : "\n"
+
+  },
+  
+  {
+
     "title"    : "Effective Telework in Distributed Government Teams",
     "url"      : "/training/effective-telework-in-distributed-government-teams",
     "category" : "",
@@ -94,10 +104,20 @@
   
   {
 
-    "title"    : "Managing Teleworkers in Government",
-    "url"      : "/training/managing-teleworkers-in-government",
+    "title"    : "Distributed Government 101: Introduction to Effective Telework in Government",
+    "url"      : "/training/introduction-to-effective-telework-in-government",
     "category" : "",
     "service"  : "Training",
+    "content"  : "\n"
+
+  },
+  
+  {
+
+    "title"    : "",
+    "url"      : "/training/managing-teleworkers-in-government",
+    "category" : "",
+    "service"  : "",
     "content"  : "\n"
 
   },
@@ -125,30 +145,20 @@
   
   {
 
-    "title"    : "Hiring Remote Workers",
-    "url"      : "/coaching/hiring-remote-workers",
-    "category" : "",
-    "service"  : "Coaching",
-    "content"  : "\n"
-
-  },
-  
-  {
-
-    "title"    : "Recruiting and Hiring For Distributed Government Teams",
+    "title"    : "",
     "url"      : "/coaching/recruiting-and-hiring-for-distributed-government-teams",
     "category" : "",
-    "service"  : "Coaching",
+    "service"  : "",
     "content"  : "\n"
 
   },
   
   {
 
-    "title"    : "Working and Leading in Distributed Teams",
+    "title"    : "",
     "url"      : "/coaching/working-and-leading-in-distributed-teams",
     "category" : "",
-    "service"  : "Coaching",
+    "service"  : "",
     "content"  : "\n"
 
   },
@@ -156,10 +166,10 @@
   
   {
 
-    "title"    : "Designing and Running Telework Training Courses",
+    "title"    : "",
     "url"      : "/consulting/designing-and-running-telework-training-courses",
     "category" : "",
-    "service"  : "Consulting",
+    "service"  : "",
     "content"  : "\n"
 
   },

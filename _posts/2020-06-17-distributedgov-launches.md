@@ -4,7 +4,7 @@ layout: post
 title: DistributedGov launches to help public service teams build highly effective remote and telework environments 
 description: DistributedGov launches to help public service teams build highly effective remote and telework environments
 excerpt: DistributedGov provides services, resources, and community to help government agencies address current issues and build a more resilient future.
-date: 2020-06-17 11:58:01 -0700
+date: 2020-06-17 08:58:01 -0700
 categories:
   -  Communications
   -  Culture
