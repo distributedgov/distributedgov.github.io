@@ -2,7 +2,7 @@
 
 layout: service
 service: Training
-title: Distributed Government 101: Introduction to Effective Telework in Government
+title: "Distributed Government 101: Introduction to Effective Telework in Government"
 description: An introductory, one-hour seminar on best practices for telework/remote teams
 excerpt: 
 author: johnoduinn
