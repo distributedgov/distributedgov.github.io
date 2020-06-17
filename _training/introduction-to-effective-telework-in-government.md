@@ -26,7 +26,7 @@ what_you_learn:
   - How to maintain team cohesion and morale
 format:
   - FREE one-hour webinar
-  - DATE / TIME: June 24 @ 11am PT / 2pm ET
+  - DATE / TIME - June 24 @ 11am PT / 2pm ET
   - Click "Request Training" to register and receive your link to join
 followup:
 prerequisites: 
