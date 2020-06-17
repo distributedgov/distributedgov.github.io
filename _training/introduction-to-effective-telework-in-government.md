@@ -2,7 +2,7 @@
 
 layout: service
 service: Training
-title: Distributed Government 101: Introduction to Effective Telework in Government
+title: "Distributed Government 101: Introduction to Effective Telework in Government"
 description: An introductory, one-hour seminar on best practices for telework/remote teams
 excerpt: 
 author: johnoduinn
@@ -26,7 +26,7 @@ what_you_learn:
   - How to maintain team cohesion and morale
 format:
   - FREE one-hour webinar
-  - DATE / TIME: June 24 @ 11am PT / 2pm ET
+  - DATE / TIME - June 24 @ 11am PT / 2pm ET
   - Click "Request Training" to register and receive your link to join
 followup:
 prerequisites: 

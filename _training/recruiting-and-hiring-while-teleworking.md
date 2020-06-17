@@ -30,7 +30,7 @@ format:
   - Four 90-minute virtual sessions, over a 2-week period
   - Breakout exercises to practice concepts and techniques
   - Hands-on interactive training including role playing
-followup: We recommend these additional services for extended support and implemetation help:
-  - [Recruiting and Hiring in Distributed Government Teams](/coaching/recruiting-and-hiring-for-distributed-government-teams)
+followup:
+  - Coaching support - [Recruiting and Hiring in Distributed Government Teams](/coaching/recruiting-and-hiring-for-distributed-government-teams)
 prerequisites: 
 ---

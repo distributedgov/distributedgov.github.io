@@ -30,9 +30,9 @@ format:
   - Practical “homework” assignments between training sessions
   - Small group breakout sessions with hands-on exercises
   - Q & A to address your group’s specific concerns
-followup: We recommend these additional services for extended support and implemetation help:
-  - [Working and Leading in Distributed Teams](/coaching/working-and-leading-in-distributed-teams)
-  - [Managing Teleworkers in Government](/training/managing-teleworkers-in-government)
-  - [Designing and Running Telework Training Courses](/consulting/designing-and-running-telework-training-courses)
+followup:
+  - Coaching support - [Working and Leading in Distributed Teams](/coaching/working-and-leading-in-distributed-teams)
+  - Manager training - [Managing Teleworkers in Government](/training/managing-teleworkers-in-government)
+  - Train your trainers - [Designing and Running Telework Training Courses](/consulting/designing-and-running-telework-training-courses)
 prerequisites: 
 ---
