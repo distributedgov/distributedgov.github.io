@@ -41,21 +41,16 @@ DistributedGov provides a topic-based filter so that public service teams can ea
 - Technology
 - Telework 
 
-##Services
+## Services
 DistributedGov provides comprehensive [training](/training), [coaching](/coaching), and [consulting](/consulting) services from [distributed work experts](/people) with extensive experience working with and for private industry and government.
 
-##Guide
+## Guide
 The [Distributed Government Guide](/guide) provides topic-based guidance on remote/telework best practices, including checklists, tools and resources specific to both government leaders and team members.
 
-##Help
+## Help
 [DistributedGov community leaders](/people) will also respond to direct questions from the community in an ‘ask us anything’ format. Responses are posted to the [help section](/help) of the platform. Initial topics addressed include [Zoom for government](/help/zoom-for-government), [Zoom and security](/help/zoom-security-zoom-bombing), and the [new semantics](/help/why-are-they-called-distributed-teams) around the terms “distributed,” “telework” and “remote.”
 
-##Webinar
+## Webinar
 On June 24, DistributedGov will host a free, one-hour webinar, ‘[Distributed Government 101: Introduction to Effective Telework in Government](/training/introduction-to-effective-telework-in-government),’ presented by John O’Duinn, author of “[Distributed Teams: The Art and Practice of Working Together While Physically Apart](https://www.amzn.com/1732254907).”
 
 DistributedGov is powered by [CivicActions](https://civicactions.com/), a 100-person digital government services firm that has operated in a fully distributed work environment with no office since its inception, for more than 15 years.
-
-##Contact
-Luke Fretwell
-CivicActions
-[luke.fretwell@civicactions.com](mailto:luke.fretwell@civicactions.com)
