@@ -31,8 +31,8 @@ format:
   - Small group breakout sessions with hands-on exercises
   - Q & A to address your group’s specific concerns
 followup:
-  - Coaching support: [Working and Leading in Distributed Teams](/coaching/working-and-leading-in-distributed-teams)
-  - Manager training: [Managing Teleworkers in Government](/training/managing-teleworkers-in-government)
-  - Train your tainers: [Designing and Running Telework Training Courses](/consulting/designing-and-running-telework-training-courses)
+  - Coaching support - [Working and Leading in Distributed Teams](/coaching/working-and-leading-in-distributed-teams)
+  - Manager training - [Managing Teleworkers in Government](/training/managing-teleworkers-in-government)
+  - Train your trainers - [Designing and Running Telework Training Courses](/consulting/designing-and-running-telework-training-courses)
 prerequisites: 
 ---
