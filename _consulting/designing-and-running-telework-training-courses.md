@@ -27,5 +27,6 @@ format:
   - Discovery to identify your goals and desired outcomes
   - One-on-one and small group virtual consulting sessions with stakeholders, curriculum developers, and trainers
   - Eight hours per week, for 6 weeks
-prerequisites:
+prerequisites: Training - "Effective Telework in Distributed Government Teams"
+
 ---
