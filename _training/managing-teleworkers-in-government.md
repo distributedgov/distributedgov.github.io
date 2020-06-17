@@ -29,6 +29,5 @@ format:
 followup:
   - Coaching support - [Working and Leading in Distributed Teams](/coaching/working-and-leading-in-distributed-teams)
   - Train your trainers - [Designing and Running Telework Training Courses](/consulting/designing-and-running-telework-training-courses)
-prerequisites:
-  - [Effective Telework in Distributed Government Teams](/training/effective-telework-in-distributed-government-teams)
+prerequisites: Effective Telework in Distributed Government Teams
 ---

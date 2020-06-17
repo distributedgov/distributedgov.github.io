@@ -28,6 +28,4 @@ format:
   - One-on-one and small group virtual consulting sessions with stakeholders, curriculum developers, and trainers
   - Eight hours per week, for 6 weeks
 prerequisites:
-  - [Effective Telework in Distributed Government Teams](/training/effective-telework-in-distributed-government-teams)
-  - [Managing Teleworkers in Government](training/managing-teleworkers-in-government)
 ---

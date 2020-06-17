@@ -24,6 +24,5 @@ who:
 format:
   - 30-minute discovery call to ascertain needs and desired outcomes
   - Individual one-on-one virtual coaching sessions as needed
-prerequisites:
-  - [Recruiting and Hiring While Teleworking](/training/recruiting-and-hiring-while-teleworking)
+prerequisites: 
 ---

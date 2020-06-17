@@ -28,7 +28,4 @@ format:
   - Individual one-on-one virtual coaching sessions as needed
 followup:
 prerequisites:
-  - [Effective Telework in Distributed Government Teams](/training/effective-telework-in-distributed-government-teams)
-  - [Managing Teleworkers in Government](/training/managing-teleworkers-in-government)
-    
 ---
