@@ -2,7 +2,7 @@
 layout: page
 title: Community
 description: Join the DistributedGov community.
-excerpt: "Join the DistributedGov community."
+excerpt: "Share and learn with others who are working to help government adopt best practices for distributed teams."
 permalink: 
 
 ---

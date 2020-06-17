@@ -27,5 +27,6 @@ format:
   - 30-minute discovery call to ascertain needs and desired outcomes
   - Individual one-on-one virtual coaching sessions as needed
 followup:
-prerequisites:
+prerequisites: Training - "Effective Telework in Distributed Government Teams"
+
 ---
