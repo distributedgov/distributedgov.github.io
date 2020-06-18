@@ -11,7 +11,9 @@ layout: default
             {% endif %}
             {% if page.prerequisites %}
             {% include heading-anchor.html heading="Prerequisites" %}
-            {{ page.prerequisites | markdownify }}
+            {% for prerequisite in page.prerequisites %}
+                {{ prerequisite | markdownify }}
+            {% endfor %}
             {% endif %}
             {% if page.who %}
             {% include heading-anchor.html heading="Who it's for" %}
