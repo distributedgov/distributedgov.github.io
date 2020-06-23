@@ -30,7 +30,8 @@ I had the opportunity to [talk with](https://www.linkedin.com/video/live/urn:li:
 * What is distributed government (and [DistributedGov](https://distributedgov.com)).
 * Why distributed government is important (especially now).
 * How COVID-19 has highlighted the need for distributed government.
-* Where government should start.
+* The long-term benefits for government hiring and retention.
+* Where government should start and how to do this safely.
 * Best practices for building a resilient and responsive work environment.
 
 ## Video
