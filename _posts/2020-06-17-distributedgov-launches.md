@@ -24,22 +24,22 @@ permalink:
 
 As civic leaders wrestle with and seriously address the issues of our times — disasters, pandemics, climate change, health and wellness, economic empowerment — distributed government teams are now a necessity to delivering responsive and resilient public services.
 
-Launched to help public service teams build and scale highly effective remote and telework environments, [DistributedGov](https://distributedgov.com/) (https://distributedgov.com) takes a broad approach to addressing these challenges.
+Launched to help public service teams build and scale highly effective remote and telework environments, [DistributedGov](https://distributedgov.com/) ([https://distributedgov.com](https://distributedgov.com) takes a broad approach to addressing these challenges.
 
 DistributedGov is a full-scale platform of [services](/services), [resources](/guide) and [community](/community) to support public service leaders and team members as remote/telework becomes a standard way for how government operates.
 
 DistributedGov provides a topic-based filter so that public service teams can easily find immediately practical remote/telework services and resources:
 
-- Communications
-- Culture
-- Hiring
-- Managing
-- Meetings
-- Policy
-- Project management
-- Security
-- Technology
-- Telework 
+- [Communications](https://distributedgov.com/topics/communications)
+- [Culture](https://distributedgov.com/topics/culture)
+- [Hiring](https://distributedgov.com/topics/hiring)
+- [Managing](https://distributedgov.com/topics/managing)
+- [Meetings](https://distributedgov.com/topics/meetings)
+- [Policy](https://distributedgov.com/topics/policy)
+- [Project management](https://distributedgov.com/topics/project-management)
+- [Security](https://distributedgov.com/topics/security)
+- [Technology](https://distributedgov.com/topics/technology)
+- [Telework](https://distributedgov.com/topics/telework)
 
 ## Services
 DistributedGov provides comprehensive [training](/training), [coaching](/coaching), and [consulting](/consulting) services from [distributed work experts](/people) with extensive experience working with and for private industry and government.
