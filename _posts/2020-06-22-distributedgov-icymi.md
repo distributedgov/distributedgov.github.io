@@ -23,7 +23,7 @@ permalink:
 ---
 
 I had the opportunity to [talk with](https://www.linkedin.com/video/live/urn:li:ugcPost:6679820125820080128/)
- e.Rebublic Chief Innovation Officer [Dustin Haisler](https://www.linkedin.com/in/dustinhaisler/) and Vice President of Research [Joe Morris](https://www.linkedin.com/in/joeknowsgov/) on their weekly videocast [ICYMI](https://icymi.video/).
+ e.Republic Chief Innovation Officer [Dustin Haisler](https://www.linkedin.com/in/dustinhaisler/) and Vice President of Research [Joe Morris](https://www.linkedin.com/in/joeknowsgov/) on their weekly videocast [ICYMI](https://icymi.video/).
 
 ## Topics discussed
 
