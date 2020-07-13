@@ -111,4 +111,4 @@ categories:
 * [Scheduling Meetings](https://about.gitlab.com/handbook/communication/#scheduling-meetings) (GitLab)
 * [New and changing patterns for digital working](https://medium.com/@BenHolliday/new-and-changing-patterns-for-digital-working-d01d334902d0) (Ben Holliday)
 * [All-Remote Meetings](https://about.gitlab.com/company/culture/all-remote/meetings/) (GitLab)
-* [Tips for video conferencing)(https://www.cisa.gov/sites/default/files/publications/CISA_Video_Conferencing_Tips_S508C.pdf) (CISA)
+* [Tips for video conferencing](https://www.cisa.gov/sites/default/files/publications/CISA_Video_Conferencing_Tips_S508C.pdf) (CISA)
