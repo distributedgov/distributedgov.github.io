@@ -88,7 +88,7 @@ categories:
 * Block time in your schedule for "focused work" as a calendar event -- preventing others from scheduling meetings on top of it.
 * Cancel recurring meetings when they are no longer productive or necessary.
 * **Do not** schedule meetings for status updates or quick questions -- first, see if you can find out by pinging someone in chat or checking the Single Source of Truth.
-* **Do** schedule structured meetings for specific, [predetermined purposes](https://docs.google.com/document/d/1xrBPTGR_7R5FCGja-p2rXaMcN4NAjuE_6pKqPcYwOvQ/edit#heading=h.oq42u020vcc).
+* **Do** schedule structured meetings for specific, [predetermined purposes](https://distributedgov.com/guide/communications#establish-regular-touchpoints-for-teams).
 
 ## Tools
 
