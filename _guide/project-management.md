@@ -23,7 +23,7 @@ categories:
 ### Keep the work visible
 
 * Share product roadmaps and team plans as openly as possible, so people can refer to them at any time to get aligned.
-* Document everything in a "[Single Source of Truth](https://docs.google.com/document/d/1xrBPTGR_7R5FCGja-p2rXaMcN4NAjuE_6pKqPcYwOvQ/edit#heading=h.xys8wwauimls)" that contains all the information, deadlines, reports, and links for the project so knowledge is shared.
+* Document everything in a "[Single Source of Truth](https://distributedgov.com/guide/communications#establish-a-single-source-of-truth)" that contains all the information, deadlines, reports, and links for the project so knowledge is shared.
 * Use [project tracking software](#heading=h.xg73hzgx2e8i) that allows the team to follow along as tasks are completed (this is helpful for any kind of project, not just software development.)
 * For software projects, keep the documentation close to the code (or written into it).
 

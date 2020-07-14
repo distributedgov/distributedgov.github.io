@@ -26,6 +26,7 @@ As civic leaders wrestle with and seriously address the issues of our times — 
 
 Launched to help public service teams build and scale highly effective remote and telework environments, [DistributedGov](https://distributedgov.com/) takes a broad approach to addressing these challenges.
 
+
 DistributedGov is a full-scale platform of [services](/services), [resources](/guide) and [community](/community) to support public service leaders and team members as remote/telework becomes a standard way for how government operates.
 
 DistributedGov provides a topic-based filter so that public service teams can easily find immediately practical remote/telework services and resources:
