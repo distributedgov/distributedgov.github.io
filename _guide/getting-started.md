@@ -94,7 +94,7 @@ categories:
 
 * Make sure there is a link to a video call in every calendar invitation
 * Schedule a virtual ‘coffee’ with a co-worker to practice with video calls
-* Schedule a recurring social call — perhaps on Fridays — to strengthen your connections with co-workers and remember that you like each other as humans (see [Culture](https://docs.google.com/document/d/1xrBPTGR_7R5FCGja-p2rXaMcN4NAjuE_6pKqPcYwOvQ/edit#heading=h.co7z165sjr2m)).
+* Schedule a recurring social call — perhaps on Fridays — to [strengthen your connections](https://distributedgov.com/guide/communications#foster-human-relationships) with co-workers
 
 ### Set a daily routine
 

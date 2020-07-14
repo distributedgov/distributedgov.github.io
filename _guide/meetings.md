@@ -88,7 +88,7 @@ categories:
 * Block time in your schedule for "focused work" as a calendar event -- preventing others from scheduling meetings on top of it.
 * Cancel recurring meetings when they are no longer productive or necessary.
 * **Do not** schedule meetings for status updates or quick questions -- first, see if you can find out by pinging someone in chat or checking the Single Source of Truth.
-* **Do** schedule structured meetings for specific, [predetermined purposes](https://docs.google.com/document/d/1xrBPTGR_7R5FCGja-p2rXaMcN4NAjuE_6pKqPcYwOvQ/edit#heading=h.oq42u020vcc).
+* **Do** schedule structured meetings for specific, [predetermined purposes](https://distributedgov.com/guide/communications#establish-regular-touchpoints-for-teams).
 
 ## Tools
 
@@ -111,4 +111,4 @@ categories:
 * [Scheduling Meetings](https://about.gitlab.com/handbook/communication/#scheduling-meetings) (GitLab)
 * [New and changing patterns for digital working](https://medium.com/@BenHolliday/new-and-changing-patterns-for-digital-working-d01d334902d0) (Ben Holliday)
 * [All-Remote Meetings](https://about.gitlab.com/company/culture/all-remote/meetings/) (GitLab)
-* [Tips for video conferencing)(https://www.cisa.gov/sites/default/files/publications/CISA_Video_Conferencing_Tips_S508C.pdf) (CISA)
+* [Tips for video conferencing](https://www.cisa.gov/sites/default/files/publications/CISA_Video_Conferencing_Tips_S508C.pdf) (CISA)
