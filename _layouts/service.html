@@ -12,7 +12,7 @@ layout: default
             {% if page.prerequisites %}
             {% include heading-anchor.html heading="Prerequisites" %}
             {% for prerequisite in page.prerequisites %}
-                {{ prerequisite | markdownify }}
+            {{ prerequisite | markdownify }}
             {% endfor %}
             {% endif %}
             {% if page.who %}
@@ -51,6 +51,20 @@ layout: default
             {% include heading-anchor.html heading="Cost" %}
             {{ page.cost | markdownify }}
             {% endif %}
+            <h2>Contracting vehicles</h2>
+            <ul>
+                <li>DUNS: 022112930</li>
+                <li>CAGE Code: 65FK1</li>
+                <li>NAICS Codes: 519190, 541511, 541512, 541513, 541519</li>
+                <li>Standard Product Code: 80101507</li>
+                <li>GSA Schedule 70 #GS-35F-337BA</li>
+                <li>CMAS</li>
+                <li>UK G Cloud 10</li>
+                <li>Mississippi Agile Vendor Pool</li>
+                <li>California Agile Vendor Pool</li>
+                <li>Certified Small Business (Micro), State of California DGS, No. 2003474</li>
+                <li>Incorporated: 2004 (California)</li>
+            </ul>
         </div>
         <div class="col-md-4 details">
             <div class="alert-info">
@@ -70,11 +84,11 @@ layout: default
             {% assign plural = '' %}
             {% comment %}Check if author is an array and if it is more than one to decide if plural.{% endcomment %}
             {% if page.author.first and page.author.size > 1 %}
-                {% if page.service == 'Coaching' %}
-                    {% assign plural = 'es' %}
-                {% else %}
-                    {% assign plural = 's' %}
-                {% endif %}
+            {% if page.service == 'Coaching' %}
+            {% assign plural = 'es' %}
+            {% else %}
+            {% assign plural = 's' %}
+            {% endif %}
             {% endif %}
             {% case page.service %}
             {% when 'Training' %}
