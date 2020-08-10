@@ -7,6 +7,9 @@ docs:
 - title: Services
   url: /services
 
+- title: Catalog
+  url: /catalog
+
 - title: People
   url: /people
 
@@ -15,9 +18,6 @@ docs:
 
 - title: Help
   url: /help
-
-- title: Community
-  url: /community
 
 - title: News
   url: /news
