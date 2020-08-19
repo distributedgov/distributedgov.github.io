@@ -193,7 +193,7 @@ h4 a:visited {
 }
 
 .jumbotron.home {
-    margin-bottom: 0;
+    margin-bottom: 2rem;
     padding-top: 5rem;
     padding-bottom: 4rem;
 }
@@ -358,6 +358,7 @@ ul.nav-pills {
 .bg-dark {
     background-color: #002f43 !important;
     margin-bottom: 2rem;
+    margin-top: 2rem;
     padding-bottom: 2rem;
     padding-top: 3.5rem;
 }
