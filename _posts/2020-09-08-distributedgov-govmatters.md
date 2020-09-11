@@ -28,4 +28,4 @@ This week, John O'Duinn and Grace McKinney of DistributedGov were interviewed on
 
 ## Video
 
-<iframe src="https://www.youtube.com/watch?v=N9jRc6zGwtA" allowfullscreen="" title="Embedded post" width="504" height="284" frameborder="0"></iframe>
+<iframe src="https://www.youtube.com/embed/N9jRc6zGwtA" allowfullscreen="" title="Embedded post" width="504" height="284" frameborder="0"></iframe>
