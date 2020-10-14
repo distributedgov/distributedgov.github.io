@@ -30,7 +30,7 @@ followup:
   - Coaching support - [Working and Leading in Distributed Teams](/coaching/working-and-leading-in-distributed-teams)
 prerequisites: 
 ---
-<div class="container section">
+<!-- <div class="container section">
     <div class="row">
         <div class="col-md-4">
             <h2>About</h2>
@@ -42,3 +42,4 @@ prerequisites:
         </div>
     </div>
 </div>
+-->
