@@ -30,3 +30,15 @@ followup:
   - Coaching support - [Working and Leading in Distributed Teams](/coaching/working-and-leading-in-distributed-teams)
 prerequisites: 
 ---
+<div class="container section">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>About</h2>
+            <p>Long-term telework allows government agencies to continue operations even during long-term office closures. This new way of working also helps address workforce diversity, economic development and climate change issues.</p>
+            <p><a href="/about">About</a></p>
+        </div>
+        <div class="col-md-8">
+            <script async class="speakerdeck-embed" data-id="eca7dc7824da4ff0b5a4916c2a389c17" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
+    </div>
+</div>
