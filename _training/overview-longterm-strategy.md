@@ -24,7 +24,7 @@ what_you_learn:
 format:
   - One 90-minute virtual session
   - Q & A to address specific concerns within your your agency leadership team
-slidedeck: eca7dc7824da4ff0b5a4916c2a389c17
+slidedeck: f9d4bdc0f995416c9cb78389d1919d47
 followup:
   - In-depth training for managers - [Managing Teleworkers in Government](/training/managing-teleworkers-in-government)
   - In-depth training for remote / telework teams - [Effective Telework in Distributed Government Teams](/training/effective-telework-in-distributed-government-teams)
