@@ -111,5 +111,6 @@ categories:
 * [Back to basics: Multi-factor authentication (MFA)](https://www.nist.gov/itl/applied-cybersecurity/tig/back-basics-multi-factor-authentication) (NIST)
 * [Why you should use a password manager, and how to get started](https://www.howtogeek.com/141500/why-you-should-use-a-password-manager-and-how-to-get-started/) (How To Geek)
 * [5 ways to spot a phishing email](https://staysafeonline.org/blog/5-ways-spot-phishing-emails/) (National Cybersecurity Alliance)
+* [How to identify digital scams in 2020](https://www.frontierinternet.com/gateway/how-to-identify-spam/) (The Gateway)
 * [Selecting and Safely Using Collaboration Servicesfor Telework](https://media.defense.gov/2020/Apr/24/2002288652/-1/-1/0/CSI-SELECTING-AND-USING-COLLABORATION-SERVICES-SECURELY-LONG-FINAL.PDF) (National Security Agency)
 * [Zoom security fixes and Zoom bombing](https://oduinn.com/2020/04/04/zoom-security-fixes-and-zoom-bombing/) (John O-Duinn)
