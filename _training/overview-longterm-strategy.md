@@ -25,6 +25,7 @@ format:
   - One 90-minute virtual session
   - Q & A to address specific concerns within your your agency leadership team
 slidedeck: f9d4bdc0f995416c9cb78389d1919d47
+slidedeck_url: https://speakerdeck.com/civicactions/distributed-government-strategic-overview
 followup:
   - In-depth training for managers - [Managing Teleworkers in Government](/training/managing-teleworkers-in-government)
   - In-depth training for remote / telework teams - [Effective Telework in Distributed Government Teams](/training/effective-telework-in-distributed-government-teams)
