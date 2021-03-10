@@ -7,7 +7,7 @@ description:
 excerpt: 
 author: johnoduinn
 service_about: For agencies that are adopting telework for immediate safety considerations — or considering the benefits of extended teleworking at scale — there are many practical questions about operations, communications, and implementation. We apply years of experience with distributed teams and serving government to provide personalized recommendations for your agency’s telework goals and next steps. Ask us anything!
-cost: $1400 for a two hour session
+cost: $2,000 for a two hour session
 form: /request
 categories:
   -  Communications
