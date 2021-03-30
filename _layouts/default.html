@@ -35,7 +35,7 @@ layout: default
                     {% endif %}
                     {% if page.form %}
                     <div class="request">
-                        <p><a class="btn btn-primary btn-lg" href="{{ page.form }}" role="button">{% if page.form_text %}{{ page.form_text }}{% else %}Contact us for {{ page.service | downcase }} or to ask questions {% endif %}</a></p>
+                        <p><a class="btn btn-primary btn-lg" href="{{ page.form }}" role="button">{% if page.form_text %}{{ page.form_text }}{% else %}Contact us to request {{ page.service | downcase }} - or to ask questions {% endif %}</a></p>
                     </div>
                     {% endif %}
                     {% if page.action %}
