@@ -8,7 +8,7 @@ excerpt:
 author: lukefretwell
 service_about: A primer on building an open, distributed culture of collaboration, accountability and iterative excellence, based on proven experience with government leaders and multiple start-up business environments.
 cost: $500 for unlimited group size
-form: /request
+form: /contact
 categories:
   -  Communications
   -  Culture
