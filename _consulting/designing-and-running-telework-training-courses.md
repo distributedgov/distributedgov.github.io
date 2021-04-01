@@ -8,7 +8,7 @@ excerpt:
 author: johnoduinn
 service_about: Many agencies need to train their teams and managers in practical remote / telework skills in the event of prolonged government office closures or scaling telework opportunities to build a more resilient and modern workforce. Developing specialized in-house training programs like this is time consuming, and requires in-depth knowledge of industry best practices as well as agency-specific needs. We consult with executives, stakeholders, and in-house trainers to help them develop training materials and online delivery methods to meet their agency’s specific needs. These customized telework training programs help improve team performance and coordination whether your team is already physically distributed, or transitioning out from an office.
 cost: Varies according to complexity of engagement and agency needs. To speed up this complex, custom process, we use common patterns and established best practices wherever applicable.
-form: /request
+form: /contact
 categories:
   - Communications
   - Culture
