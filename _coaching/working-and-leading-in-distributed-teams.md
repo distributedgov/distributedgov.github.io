@@ -8,7 +8,7 @@ excerpt:
 author: johnoduinn
 service_about: This one-on-one coaching builds on previous training, and will help you with any agency specific implementation questions you might encounter while building effective distributed (remote / teleworking) teams. From team culture and communication issues to policy and operational headaches, we provide personalized support to help you overcome challenges and empower happy and productive teleworking teams.
 cost: Varies according to duration and complexity of engagement
-form: /request
+form: /contact
 categories:
   -  Communications
   -  Culture
