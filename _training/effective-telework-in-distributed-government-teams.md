@@ -8,7 +8,7 @@ excerpt:
 author: johnoduinn
 service_about: This training provides government teams with strategies, tools, and best practices for working together effectively in a distributed (remote/telework) model. These skills increase your agency’s resilience by improving team performance, streamlining communications, and modernizing workflows for better collaboration.
 cost: $250 per participant, for up to 200 people (minimum 175 people per cohort)
-form: /request
+form: /contact
 categories:
   - Communications
   - Culture
