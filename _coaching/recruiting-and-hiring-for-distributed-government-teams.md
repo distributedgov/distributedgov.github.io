@@ -10,7 +10,7 @@ author:
   - johnoduinn
 service_about: This one-on-one coaching builds on previous training, and will help you solve your agency’s specific implementation challenges around hiring for distributed (remote / telework) teams. Modernizing your recruiting, hiring, and onboarding processes to work well in a virtual environment will increase your team’s resilience, diversity, and retention.
 cost: Varies according to duration and complexity of engagement
-form: /request
+form: /contact
 categories:
   - Communications
   - Culture
