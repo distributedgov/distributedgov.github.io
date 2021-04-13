@@ -8,7 +8,7 @@ excerpt:
 author: johnoduinn
 service_about: Developing telework policies that evolve with operational and technical needs is essential for long-term resilience in the event of prolonged government office closures or scaling telework opportunities to build a more diverse, effective, and modern workforce. We consult with executives to create or revise their telework policies in accordance with best practices for distributed teams, helping you navigate the complexities of security, training certifications, scalability, and performance measurement.
 cost: Estimated at $31,680. This is for a 12-week engagement, 4 hours per week at $660 per hour. To speed up this complex, custom process, we use common patterns and established best practices wherever applicable.
-form: /request
+form: /contact
 categories:
   -  Managing
   -  Policy
