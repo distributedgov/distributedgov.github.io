@@ -10,7 +10,7 @@ author:
   - joanbordow
 service_about: Excellence and competency are not the only factors that contribute to the successful performance of a team. Human dynamics play a crucial role, such as a team’s ability to effectively communicate and coordinate with each other, to overcome everyday adversity, and ⁠— most importantly ⁠— to do these things well under pressure. This training provides government teams with a proven team dynamics methodology for excelling at work.
 cost: $1,000 per participant
-form: /request
+form: /contact
 categories:
   -  Communications
   -  Culture
