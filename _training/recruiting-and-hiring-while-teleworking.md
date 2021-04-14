@@ -10,7 +10,7 @@ author:
   - johnoduinn
 service_about: Recruiting and hiring while your team is teleworking can be challenging — but it’s also an opportunity to gain the benefits that distributed teams can bring to your agency. This training empowers agency staff to securely and effectively interview and onboard new team members in virtual environments.
 cost: $20,000 for up to 20 participants
-form: /request
+form: /contact
 categories:
   -  Communications
   -  Hiring

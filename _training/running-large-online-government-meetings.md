@@ -8,7 +8,7 @@ excerpt:
 author: johnoduinn
 service_about: Government leaders hold various types of large scale meetings — from team communications and milestones to open “town-hall” style meetings with stakeholders or the public. Learn how to run these meetings online instead of in person, with consideration for security, technology, audience engagement, and logistics.
 cost: $20,000 for up to 20 participants
-form: /request
+form: /contact
 categories:
   -  Communications
   -  Meetings

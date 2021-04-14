@@ -8,7 +8,7 @@ excerpt:
 author: johnoduinn
 service_about: This online training introduces government leaders to the strategies, tools, and best practices for effectively leading in a distributed (remote/telework) model -- and showcases the benefits of adopting telework as a viable long term strategy. The focus is on the unique challenges of leading, mentoring, and managing while physically apart from your team for prolonged periods of time. 
 cost: $2,000 for up to 100 participants
-form: /request
+form: /contact
 categories:
   -  Communications
   -  Culture
