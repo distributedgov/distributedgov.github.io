@@ -7,7 +7,7 @@ description: This training provides government leaders with strategies, tools, a
 excerpt: 
 author: johnoduinn
 service_about: This training provides government leaders with strategies, tools, and best practices for effectively leading in a distributed (remote/telework) model. The focus is on the unique challenges of leading, mentoring, and managing while physically apart from your team.
-cost: $1,500 per individual - [Purchase here](https://checkout.square.site/buy/5FYNLQDVVHDNKYXPOKCW2T5T). $20,000 to reserve an entire cohort for your organization of up to 20 participants.
+cost: $1,500 per individual - [to purchase, click here](https://checkout.square.site/buy/5FYNLQDVVHDNKYXPOKCW2T5T). To reserve an entire cohort of up to 20 participants from your organization, at a discounted $20,000, [contact us](/contact).
 form: /contact
 categories:
   -  Communications
