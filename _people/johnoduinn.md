@@ -16,4 +16,4 @@ John O’Duinn is the author of “<a href="https://distributedteamsbook.com/buy
 
 John is a senior technologist and entrepreneur who has worked in distributed companies of one form or another for 28 years, led distributed teams for 14 years, run workshops and mentored distributed teams for 7 years and is a frequent international speaker on the benefits and strategies of remote work. 
 
-John served in the U.S. Digital Service in the Obama White House, helped the State of Vermont write their "Remote Worker" law encouraging remote work to promote economic growth, is helping the State of California revise its telework policy and is supporting the development of other telework and economic development policies for multiple jurisdictions worldwide.
+John served in the U.S. Digital Service in the Obama White House, helped the State of Vermont write their 2018 "Remote Worker" law encouraging remote work to promote economic growth, helped the State of California revise its 2021 telework policy during COVID-19 and is supporting the development of other telework and economic development policies for multiple jurisdictions worldwide
